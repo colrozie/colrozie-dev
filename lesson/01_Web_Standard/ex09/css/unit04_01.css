@@ -1,0 +1,12 @@
+﻿ /* body{background: red;} */
+ h1, ul, li{margin: 0; padding: 0;}
+ body{margin-top: 30px; font: 1.2em Verdana, sans-serif;}
+ h1{padding-bottom: 20px; text-align: center; font-size: 2em; color: #fff;
+ font-style: italic; text-shadow: 0 0 10px #666;}
+ a{text-decoration: none;}
+ #bookList{background: no-repeat url(../images/book_bg.png); width: 476px; height: 246px; padding-left: 22px; padding-top: 25px; margin: 0 auto; border: 5px siolid #dbdbdb; border-radius: 30px; box-shadow: 0 0 10px #666;}
+ #bookList ul{list-style: none;}
+ #bookList ul li{float: left;}
+ #bookList ul li a, #bookList ul li a img{display: block;}
+ #bookList ul li a img.frame{margin-right: 63px;}
+ #bookList ul li a:hover img{box-shadow: 0 0 50px #009900;}

@@ -1,0 +1,8 @@
+﻿/* body{background: red;} */
+
+#bookInfo{margin: 20px auto; display: table; border-spacing: 3px;}
+#bookInfo li{display: table-cell; width: 150px; color: #fff; text-align: center; background-color: #666; padding: 10px; }
+#bookCon{display: table; border-collapse: collapse; margin: 0px auto;}
+#bookCon dt, #bookCon dD{display: table-cell; border: 1px solid #999; padding: 10px;}
+#bookCon dt{background-color: #999; width: 100px; text-align: center; vertical-align: middle;}
+#bookCon dd{width: 200px; line-height: 150%; text-align: justify;}

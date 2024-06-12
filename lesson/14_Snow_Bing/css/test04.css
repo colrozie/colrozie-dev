@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0; border: 0;}
+ul{list-style: none; }
+#box_a{height: 400px; background: #f1779e;}
+
+.list_man{margin: 0 auto; width: 80%; padding-top: 50px;}
+.list_man li{width: 18%; margin: 1%; background: #ffffff; float: left;}
+
+@media screen and (max-width:1024px) {
+    .list_man{width: 95%;}
+    .list_man li{width: 23%; margin: 1%;}
+}
+@media screen and (max-width:800px) {
+    .list_man li{width: 31.333%; margin: 1%;}	
+}
+@media screen and (max-width:480px) {
+    .list_man li{width: 48%; margin: 1%;}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

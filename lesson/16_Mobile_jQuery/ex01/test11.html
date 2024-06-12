@@ -1,0 +1,42 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header" data-add-bck-btn="true" data-backbtn="false">
+			<a href="#page2" class="ui-btn-right">page2</a>
+            <h1>Title</h1>
+        </div>
+        <div data-role="content">
+            <p>content area</p>
+			<h1>first page</h1>
+        </div>
+        <div data-role="footer">
+			<a href="#page1">btn1</a>
+			<a href="#page2">btn2</a>
+        </div>
+    </div>
+    <div data-role="page" id="page2">
+        <div data-role="header" data-add-bck-btn="true" data-back-btn-text="이전으로"> <!-- 페이지 이동이 일어나야 백버튼이 생김(히스토리에 저장) -->
+            <h1>Title</h1>
+        </div>
+        <div data-role="content">
+            <p>content area</p>
+			<h1>second page</h1>
+        </div>
+        <div data-role="footer" class="ui-bar">
+            <div data-role="controlgroup" data-type="horizontal">
+			<a href="#page1">btn1</a>
+			<a href="#page2">btn2</a>
+			</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import "reset.css";
+@import "classes.less";
+
+
+
+html, body {height:100%;}
+body {
+    background-color:#1c1c1c;
+    .rainbow-gradient(
+        -45deg,
+        #ff0000, #ffb600, #fff600, #a5ff00, #00a9ff, #0400ff, #8a00fc, #ff00c9, #ff0059
+    );
+}
+  
+// LESS Function
+.rainbow-gradient(
+    @deg: 0deg,
+    @c1: red,
+    @c2: orange,
+    @c3: yellow,
+    @c4: green,
+    @c5: blue,
+    @c6: deepblue,
+    @c7: purple,
+    @c8: pink,
+    @c9: red
+)
+
+{
+background-image:
+    -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%, @c1),
+        color-stop(11%, @c1), color-stop(11%, @c2),
+        color-stop(22%, @c2), color-stop(22%, @c3),
+        color-stop(33%, @c3), color-stop(33%, @c4),
+        color-stop(44%, @c4), color-stop(44%, @c5),
+        color-stop(55%, @c5), color-stop(55%, @c6),
+        color-stop(66%, @c6), color-stop(66%, @c7),
+        color-stop(77%, @c7), color-stop(77%, @c8),
+        color-stop(88%, @c8), color-stop(88%, @c9),
+        color-stop(100%, @c1)
+    ); 
+background:
+    -webkit-linear-gradient(@deg,
+        @c1 0%,
+        @c1 11%, @c2 11%,
+        @c2 22%, @c3 22%,
+        @c3 33%, @c4 33%,
+        @c4 44%, @c5 44%,
+        @c5 55%, @c6 55%,
+        @c6 66%, @c7 66%,
+        @c7 77%, @c8 77%,
+        @c8 88%, @c9 88%,
+        @c1 100%
+    );
+background:
+    -moz-linear-gradient(@deg,
+        @c1 0%,
+        @c1 11%, @c2 11%,
+        @c2 22%, @c3 22%,
+        @c3 33%, @c4 33%,
+        @c4 44%, @c5 44%,
+        @c5 55%, @c6 55%,
+        @c6 66%, @c7 66%,
+        @c7 77%, @c8 77%,
+        @c8 88%, @c9 88%,
+        @c1 100%
+    ); 
+}
+
+a:link, a:visited {color:#4a4a4a;text-decoration:none;}
+a:hover, a:active {color:#7b7b7b;}

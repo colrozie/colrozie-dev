@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Flex box는 container 속성 item 속성</title>
+</head>
+<style>
+	html, body{height: 100%; text-align: center; font-weight: bold;}
+	.container{background: MistyRose; height: 100vh; display: flex; justify-content: space-between;}
+	
+	/* stretch(기본값): flex item의 높이를 늘려 flex container의 전체 높이를 채운다. */
+	/* flex-start: 교차축의 시작 부분을 기준으로 flex item을 정렬한다. */
+	/* center: 교차축의 중앙을 기준으로 flex item을 정렬한다. */
+	/* baseline: 글꼴의 기준선인 baseline을 기준으로 flex item을 정렬한다. */
+	/* flex-end: 교차축의 끝부분을 기준으로 flex item을 정렬한다. */
+
+
+	.item{width: 50px; height: 50px; border: 1px solid #fdfdfd;}
+	.item1{background: AliceBlue; padding-top: 50px;}
+	.item2{background: AntiqueWhite;}
+	.item3{background: CadetBlue;}
+	.item4{background: CornflowerBlue;}
+	.item5{background: Coral;}
+	.item6{background: Cornsilk;}
+	.item7{background: DarkOliveGreen;}
+	.item8{background: DarkSeaGreen;}
+	.item9{background: DarkSalmon;}
+	.item10{background: DarkSlateBlue;}
+	.item11{background: IndianRed;}
+	.item12{background: LavenderBlush;}	
+</style>
+<body>
+	<!--*-- container 속성 flex-direction, flex-wrap, justify-content, align-items, align-content --*-->
+	<!--*-- container 안의 item 속성 flex, flex-grow, flex-shrink, flex-basis, order --*-->
+	<img src="images/flex_02.png" alt=""/>
+  <div class="container">
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+    <div class="item item5">5</div>
+    <div class="item item6">6</div>
+    <div class="item item7">7</div>
+    <div class="item item8">8</div>
+    <div class="item item9">9</div>
+    <div class="item item10">10</div>
+    <div class="item item11">11</div>
+    <div class="item item12">12</div>
+  </div>
+</body>
+</html>

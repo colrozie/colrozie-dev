@@ -1,0 +1,6 @@
+﻿/* body{background: red;} */
+#header{width: 1000px; height: 400px; margin: 0 auto; background: yellow;}
+.box1{width: 100px; height: 100px; background: red;}
+.box2{width: 100px; height: 100px; background: green; position: absolute; bottom: 0px; right: 0px;}
+.box3{width: 100px; height: 100px; background: blue;}
+

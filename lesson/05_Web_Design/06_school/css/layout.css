@@ -1,0 +1,75 @@
+﻿/* body{background: red;} */
+/* 초기화 */
+*{margin: 0; padding: 0; border: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+.cf:after{content: ''; display: block; clear: both;}
+.hidden{font-size: 0; color: #ffffff; text-indent: -99999em; display: none; visibility: hidden;}
+
+#wrap{width: 1200px; height: 700px; margin: 50px auto; background: #eeeeee;}
+
+#header{width: 100%; height: 100px; background: #dddddd;}
+.logo{float: left; width: 200px; height: 100px; background: #888888;}
+.nav{float: right; width: 800px; height: 100px; background: #777777;}
+
+#banner{width: 100%; height: 300px; background: #cccccc;}
+
+#contents{width: 100%; height: 200px; background: #aaaaaa;}
+.content1{float: left; width: 400px; height: 200px; background: #bbbbbb;}
+.content2{float: left; width: 400px; height: 200px; background: #aaaaaa;}
+.content3{float: left; width: 400px; height: 200px; background: #999999;}
+
+#footer{width: 100%; height: 100px; background: #999999;}
+.f_logo{float: left; width: 200px; height: 100px; background: #777777;}
+.f_nav{float: left; width: 1000px; height: 50px; background: #666666;}
+.f_copy{float: left; width: 1000px; height: 50px; background: #555555;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

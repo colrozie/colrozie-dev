@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>논리연산자</title>
+	<style type="text/css">
+		body{white-space: pre;}
+	</style>
+    <script>
+         x=(7>6)&&(1>8)
+         y=(7>6)||(1>8)
+         z=!(7>6)
+         t=(7>6)^(1>8)
+    
+         document.write("7이 6보다 크고 1이 8보다 크면 논리값은?")
+         document.write(x + "<br>")
+         document.write("7이 6보다 크거나 1이 8보다 크면 논리값은?")
+         document.write(y + "<br>")
+         document.write("7이 6보다 크지 않으면 논리값은?")
+         document.write(z + "<br>")
+         document.write(t + "<br>")
+    </script>
+<body>	
+	A&&B (A와 B가 모두 True일 경우에만 True)
+	A||B (A또는 B가 True일 경우 True)
+	!A (A가 True이면 False, False이면 True)
+	A^B (A와 B가 모두 True거나 False이면 True)
+
+	사용예) 4번째는 실행 결과값이 1이 출력 (1은 False)
+</html>

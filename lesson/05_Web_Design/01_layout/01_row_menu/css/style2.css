@@ -1,0 +1,37 @@
+﻿/* body{background: red;} */
+html{overflow-y:scroll;}
+*{margin: 0; padding: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+ul, li{list-style: none;}
+a{text-decoration: none;}
+div{box-sizing: border-box;}
+
+h1, h2, h3, div{font-size: 16px; font-weight: normal;}
+/* tlfwpfhs dks sjgdma */
+/* 레이아웃 */
+#wrap{width: 1200px; margin: 50px auto;}
+#header{width: 1200px; height: 100px; position: relative;}
+.logo{width: 250px; height: 100px; float: left; background: #eeeeee;}
+/* .nav{width: 950px; height: 100px; float: right; background: #dddddd;} */
+.nav{width: 600px; float: right; background: #dddddd; margin-top: 28px;}
+.nav li{float: left; width: 25%; text-align: center; position: relative; /* height: 43px; */}
+.nav li a{display: block; padding: 10px; font-size: 20px; color: #ffffff;}
+.nav li a:hover{background: rgba(0,0,0,.4);}
+.nav li ul.sub{position: absolute; left: 0; top: 47px; background: #cccccc; display: none; height: 188px;}
+.nav li ul.sub li{width: 100%;}
+/* .nav li ul.sub li a{display: block; padding: 10px;} */
+
+
+#banner{width: 1200px; height: 300px; background: #cccccc;}
+#contents{width: 1200px; height: 200px;}
+#contents>div{float: left; width: 400px; height: 200px;}
+#contents>div.content1{background: #555555;}
+#contents>div.content2{background: #777777;}
+#contents>div.content3{background: #999999;}
+
+/* 풋터 */
+
+#footer{width: 1200px; height: 100px;}
+.footer1{float: left; width: 200px; height: 100px; background: #cccccc;}
+.footer2{float: left; width: 800px; height: 100px; background: #dddddd;}
+.footer3{float: left; width: 200px; height: 100px; background: #eeeeee;}

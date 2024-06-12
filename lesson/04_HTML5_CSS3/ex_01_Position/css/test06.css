@@ -1,0 +1,11 @@
+﻿/* body{background: red;} */
+
+.box{width: 100px; height: 100px; position: absolute;}
+.box:nth-child(1){background: red; left: 10px; top: 10px; z-index: 2;}
+.box:nth-child(2){background: green; left: 40px; top: 40px;}
+.box:nth-child(3){background: blue; left: 90px; top: 90px;}
+
+body>div{width: 400px; height: 100px; border: 3px solid black; position: relative; overflow-y: scroll; top: 500px;}
+
+/* visibility랑 비슷 자기 자리를 유지한 채 비워짐*/
+

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>계산기 만들기</title>
+	<style>
+		body{white-space: pre;}
+	</style>
+    <script>
+        x=prompt("수식을 입력하세요")
+        y=eval(x)
+    </script>
+</head>
+<body>
+    <img src="math.gif" width="302" height="266" style="display: block; margin: 0 auto; border:0;" />
+    <script>
+        document.write("<p style='text-align: center;'>")
+        document.write(x,"=",y)
+        document.write("</p>")
+    </script>
+</html>

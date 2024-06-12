@@ -1,0 +1,5 @@
+﻿// alert('a');
+/* $(function(){}); */
+$(function(){
+	
+});

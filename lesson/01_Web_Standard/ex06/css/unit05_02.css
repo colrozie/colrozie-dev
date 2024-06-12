@@ -1,0 +1,6 @@
+﻿/* body{background-color: red;} */
+
+/* li+li{background-color: #ff6600; margin-left: 20px;} */
+li~li{background-color: #ff7700; margin-left: 20px;}
+
+/* +는 기준으로부터 바로 하위에 있어야 함 ~는 기준으로부터 밑에 포함된 건 다 가능 */

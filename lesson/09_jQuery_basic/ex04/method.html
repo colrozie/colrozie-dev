@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>메소드 정리</title>
+</head>
+<style>
+  body{font-size: 14px; margin-left: 50px;}
+  h4{font-size: 18px;}
+  table{margin-bottom: 70px;}
+  th{text-align: center; color: #444444; box-shadow: inset 0 0 8px #f1bfdb; padding: 7px;}
+  tr:nth-child(odd) { background-color: #fff6fc; }
+  tr:nth-child(even) { background-color: #ffffff; }
+</style>
+<body>
+  <h4>객체 조작 메소드</h4>
+  <table width="800" border="1" cellpadding="4">
+    <tr>
+      <th bgcolor="#ffe3ec">종류</th>
+      <th bgcolor="#ffe3ec">사용법</th>
+      <th bgcolor="#ffe3ec">설명</th>
+    </tr>
+    <tr>
+      <td>html() html('요소')</td>
+      <td>$('요소 선택').html(); <br>$('요소 선택').html('요소');</td>
+      <td>하위 요소를 가져온다. <br>하위 요소를 제거하고, 새 요소를 생성.</td>
+    </tr>
+    <tr>
+      <td>text('') <br>text('blabla')</td>
+      <td>$('요소 선택').text(); <br>$('요소 선택').text('blabla');</td>
+      <td>텍스트를 가져온다. <br>하위 요소를 제거하고, 전달된 텍스트를 생성.</td>
+    </tr>
+    <tr>
+      <td>attr('속성') <br>attr('속성', '값')</td>
+      <td>$('요소 선택').attr('속성') <br>$('요소 선택').attr('속성', '값')</td>
+      <td>해당 속성값을 가져옴 <br>해당 속성값을 교체</td>
+    </tr>
+    <tr>
+      <td>val() <br>val('값')</td>
+      <td>$('요소 선택').val() <br>$('요소 선택').val('값')</td>
+      <td>폼 요소'의 value를 가져옴 <br>'폼 요소'의 value 속성에 주어진 값을 적용</td>
+    </tr>
+    <tr>
+      <td>css('속성') <br>css('속성', '값')</td>
+      <td>$('요소 선택').css('속성') <br>$('요소 선택').css('속성', '값')</td>
+      <td>주어진 css 속성값을 가져옴 <br>주어진 css 속성값으로 교체</td>
+    </tr>
+    <tr>
+      <td>addClass('class값')</td>
+      <td>$('요소 선택').addClass('class값')</td>
+      <td>class 속성에서 주어진 값 추가</td>
+    </tr>
+    <tr>
+      <td>removeClass('class값')</td>
+      <td>$('요소 선택').removeClass('class값')</td>
+      <td>class 속성에서 주어진 값 제거</td>
+    </tr>
+  </table>
+
+  <h4>수치 조작 메소드</h4>
+  <table width="800" border="1" cellpadding="4">
+    <tr>
+      <th bgcolor="#ffe3ec">종류</th>
+      <th bgcolor="#ffe3ec">사용법</th>
+      <th bgcolor="#ffe3ec">설명</th>
+    </tr>
+    <tr>
+      <td>width()</td>
+      <td>$('요소 선택').width(); <br>$('요소 선택').width(1000);</td>
+      <td>여백, 선을 제외한 높이값 반환, 수정.</td>
+    </tr>
+    <tr>
+      <td>height()</td>
+      <td>$('요소 선택').height(); <br>$('요소 선택').height(1000);</td>
+      <td>여백, 선을 제외한 높이값 반환, 수정.</td>
+    </tr>
+    <tr>
+      <td>position()</td>
+      <td>$('요소 선택').position().left <br>$('요소 선택').position().top</td>
+      <td>기준요소로부터 위치값 반환</td>
+    </tr>
+  </table>
+
+  <h4>객체 편집 메소드</h4>
+  <table width="800" border="1" cellpadding="4">
+    <tr>
+      <th bgcolor="#ffe3ec">종류</th>
+      <th bgcolor="#ffe3ec">사용법</th>
+      <th bgcolor="#ffe3ec">설명</th>
+    </tr>
+    <tr>
+      <td>before()</td>
+      <td>$('요소 선택').before('요소')</td>
+      <td>선택한 요소 이전에 요소 추가</td>
+    </tr>
+    <tr>
+      <td>after()</td>
+      <td>$('요소 선택').after('요소')</td>
+      <td>선택한 요소 다음에 요소 추가</td>
+    </tr>
+    <tr>
+      <td>append()</td>
+      <td>$('요소 선택').append('요소')</td>
+      <td>선택한 요소 내 마지막에 요소 추가</td>
+    </tr>
+    <tr>
+      <td>appendTo()</td>
+      <td>$('요소').appendTo('요소 선택')</td>
+      <td>선택한 요소 내 마지막에 요소 추가</td>
+    </tr>
+    <tr>
+      <td>prepend()</td>
+      <td>$('요소 선택').prepend('요소')</td>
+      <td>선택한 요소 내 맨 앞에 요소 추가</td>
+    </tr>
+    <tr>
+      <td>prependTo()</td>
+      <td>$('요소').prependTo('요소 선택')</td>
+      <td>선택한 요소 내 맨 앞에 요소 추가</td>
+    </tr>
+    <tr>
+      <td>empty()</td>
+      <td>$('요소 선택').empty()</td>
+      <td>선택한 요소의 하위 요소를 모두 삭제</td>
+    </tr>
+    <tr>
+      <td>remove()</td>
+      <td>$('요소 선택').remove()</td>
+      <td>선택한 요소를 삭제</td>
+    </tr>
+  </table>
+
+  <h4>이벤트 메소드</h4>
+  <table width="800" border="1" cellpadding="4">
+    <tr>
+      <th bgcolor="#ffe3ec">종류</th>
+      <th bgcolor="#ffe3ec">사용법</th>
+      <th bgcolor="#ffe3ec">설명</th>
+    </tr>
+    <tr>
+      <td>click()</td>
+      <td>$('요소 선택').click()</td>
+      <td>선택한 요소를 누를 때</td>
+    </tr>
+    <tr>
+      <td>dblclick()</td>
+      <td>$('요소 선택').dblclick()</td>
+      <td>선택한 요소를 두 번 연속 누를 때</td>
+    </tr>
+    <tr>
+      <td>hover()</td>
+      <td>$('요소 선택').hover()</td>
+      <td>마우스 올렸을 때 & 마우스 벗어났을 때</td>
+    </tr>
+    <tr>
+      <td>mousedown()</td>
+      <td>$('요소 선택').mousedown()</td>
+      <td>선택한 요소 내에서 눌렀을 때</td>
+    </tr>
+    <tr>
+      <td>mouseenter()</td>
+      <td>$('요소 선택').mouseenter()</td>
+      <td>선택한 요소 범위 내에 마우스를 올렸을 때</td>
+    </tr>
+    <tr>
+      <td>mouseleave()</td>
+      <td>$('요소 선택').mouseleave()</td>
+      <td>선택한 요소 범위 내에서 마우스가 벗어났을 때</td>
+    </tr>
+    <tr>
+      <td>mousemove()</td>
+      <td>$('요소 선택').mousemove()</td>
+      <td>선택한 요소범위에서 마우스 포인터를 움직였을 때</td>
+    </tr>
+    <tr>
+      <td>mouseout()</td>
+      <td>$('요소 선택').mouseout()</td>
+      <td>선택한 요소 범위 내에서 마우스가 벗어났을 때</td>
+    </tr>
+    <tr>
+      <td>mouseover()</td>
+      <td>$('요소 선택').mouseover()</td>
+      <td>선택한 요소 영역에 마우스 올릴 때</td>
+    </tr>
+    <tr>
+      <td>mouseup()</td>
+      <td>$('요소 선택').mouseup()</td>
+      <td>선택한 요소에서 마우스 눌렀다 뗄 때</td>
+    </tr>
+    <tr>
+      <td>scroll()</td>
+      <td>$('요소 선택').scroll()</td>
+      <td>스크롤바를 움직일 때마다</td>
+    </tr>
+    <tr>
+      <td>focusin()</td>
+      <td>$('요소 선택').focusin()</td>
+      <td>선택한 요소 포커스 생성시</td>
+    </tr>
+    <tr>
+      <td>focusout()</td>
+      <td>$('요소 선택').focusout()</td>
+      <td>선택한 요소에서 다른요소로 포커스가 이동 될 때</td>
+    </tr>
+    <tr>
+      <td>focus()</td>
+      <td>$('요소 선택').focus()</td>
+      <td>선택한 요소 포커스 생성시 or 포커스 강제생성</td>
+    </tr>
+    <tr>
+      <td>blur()</td>
+      <td>$('요소 선택').blur()</td>
+      <td>선택한 요소에서 다른요소로 포커스가 이동 될 때 or 포커스 강제삭제</td>
+    </tr>
+    <tr>
+      <td>load()</td>
+      <td>$('요소 선택').load()</td>
+      <td>이미지 또는 연동된 소스의 로딩이 완료된 후 발생</td>
+    </tr>
+    <tr>
+      <td>ready()</td>
+      <td>$('요소 선택').ready()</td>
+      <td>지정한 HTML 문서 객체 로딩 완료후 이벤트 발생</td>
+    </tr>
+    <tr>
+      <td>keypress()</td>
+      <td>$('요소 선택').keypress()</td>
+      <td>선택한 요소에서 키보드 누를 때 + 문자 키를 제외한 키의 코드값 반환</td>
+    </tr>
+    <tr>
+      <td>keydown()</td>
+      <td>$('요소 선택').keydown()</td>
+      <td>선택한 요소에서 키보드 누를 때 + 키보드 모든 키의 코드값 반환</td>
+    </tr>
+    <tr>
+      <td>keyup()</td>
+      <td>$('요소 선택').keyup()</td>
+      <td>선택한 요소 중 키보드에서 손을 뗐을 때</td>
+    </tr>
+  </table>
+
+</body>
+</html>

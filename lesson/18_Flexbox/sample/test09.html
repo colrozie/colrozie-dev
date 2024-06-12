@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+	<title>모바일 기기에 맞춘 스크립트</title>
+	<style type="text/css">
+		*{margin: 0; padding: 0; box-sizing: border-box; border: 0;}
+		body{text-align: center; margin: 0; width: 100vw; overflow-x: hidden;}
+		div{width: 50vw; height: 50vh; float: left;}
+		.a{background: #efbfff;}
+		.b{background: #bfffbf;}
+		.c{background: #ffbfbf;}
+		.d{background: #efffbf;}
+	</style>
+	<script>
+		window.addEventListener('load', function(){
+			setTimeout(scrollTo, 0, 0, 1); //x,y,시간
+		}, false);
+		window.addEventListener('orientationchange', function(){
+			setTimeout(scrollTo, 0, 0, 1);
+		}, false);
+		//iphone jQuery link 걸어야함
+		$(document).ready(function(){
+			if (navigator.userAgent.indexOf('iPhone') != -1) { //브라우저, 제조사
+			 addEventListener("load", function() {
+			  setTimeout(hideURLbar, 0);    }, false);
+			 }
+			 else {     
+			  hideURLbar();
+			 }
+
+			function hideURLbar() {window.scrollTo(0, 1);
+			}
+			alert(navigator.userAgent);
+		});
+		//주소창을 없애는 기술 세로모드/가로모드
+	</script>
+</head>
+<body>
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+	<div class="d"></div>
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+	<div class="d"></div>
+	<script>
+		var mobileKeyWords = new Array('iphone', 'ipod', 'ipad', 'android', 'blackberry', 'windows ce','nokia', 'webos', 'opera mini', 'sonyericsson', 'opera mobi', 'iemobile');
+		for(var word in mobileKeyWords){
+			if(navigator.userAgent.match(mobileKeyWords[word]) != null){
+				location.href = '#';
+				break;
+			}
+		};
+	</script>
+</body>
+</html>

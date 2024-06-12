@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>숫자를 입력하면 다음 페이지로 이동하게 만들기</title>
+	<style>
+		body{white-space: pre;}
+	</style>
+    <script>
+        x=prompt("암호를 입력하세요")
+        y=isNaN(x)
+        if(y==true){
+            function password()
+            {
+                document.write("<p style='text-align: center;'>")
+                document.write("숫자만 입력이 가능합니다.")
+                document.write("</p>")
+            }
+        }
+        else window.open("a.htm")
+    </script>
+</head>
+<body style="margin-top: 50px;">
+    <img src="pass.gif" width="203" height="216" style="display: block; margin: 0 auto; border: 0;" />
+    <script>
+        password()
+    </script>
+</body>
+</html>

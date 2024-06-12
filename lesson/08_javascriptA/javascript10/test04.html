@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>창의 내용을 보여주는 메소드</title>
+</head>
+<body>
+	<script>
+		function win()
+		{
+			a=window.open()
+			a.document.open()
+			a.document.write("저의 집에 오신 것을 환영합니다.")
+			a.document.close()
+		}	
+
+		function win_close()
+		{
+			a.document.open()
+			a.document.write("")
+			a.document.close()
+		}
+	</script>
+	<form>
+		<input type="button"  value="메시지 창 띄우기"  onclick="win()" />
+		<input type="button"  value="내용 지우기"  onclick="win_close()" />
+	</form>
+</body>
+</html>

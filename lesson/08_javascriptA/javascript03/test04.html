@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>CONTINUE문</title>
+	<style>
+		body{white-space: pre;}
+	</style>    
+    <script>
+        x=0
+        total=0
+
+        while(x<10)
+        {
+            x++
+
+            if(x==3) continue
+            total=total+x
+            document.write(x)
+
+            if(x!=10)
+            document.write("+")
+        }
+
+        document.write("="+ total)
+    </script>
+</head>
+<body>
+	반복문 문장 안에 사용하여 반복 실행 중에 조건문으로 되돌아 가게 해주는 역활을 한다.
+	즉, 반목문에서 특정 부분을 실행하지 않게 하고 싶을 때 간단하게 사용할 수 있다.
+
+	사용예) 1부터 10까지의 수중에서 3을 제외한 수의 합을 계산
+</body>
+</html>

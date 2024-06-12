@@ -1,0 +1,82 @@
+﻿/* body{background: red;} */
+*{margin: 0; padding: 0; border: 0; list-style: none; color:#333333; text-decoration: none;}
+a{text-decoration: none; display: block; color: #666666;}
+
+.fl{float: left;}
+.cf:after{content:''; display: block; clear: both;}
+.hidden{font-size: 0; overflow: hidden; position: absolute; text-indent: -55555em;}
+
+.pop_up{position: fixed; z-index: 9999; width: 550px; height: 550px; background: #ffffff; left: 50%; top: 50%; margin-left: -275px; margin-top: -275px; display: none;}
+.pop_up p{margin: 55px;}
+.pop_up button{position: absolute; float: right; top: 500px; right: 10px; width: 90px; height: 40px; background: #400010; color: #ffffff; cursor: pointer;}
+
+#wrap{width: 1000px; height: 1000px; margin: 50px auto;}
+
+#side_menu{width: 250px; height: 850px; background: #ffdfbf;}
+	#header{width: 250px; height: 250px;}
+	.nav a{transition: all .3s;}
+	.nav>ul>li>a{color: #ffffff; background: #400010; padding: 14px 20px; text-align: center; font-size: 16px; font-weight: bold; margin-bottom: 5px;}
+	.nav>ul>li>a:hover{background: #6b3221;}
+	.nav ul.sub{display: none;}
+	.nav .sub li a{background: #fffaf4; padding: 14px 20px; text-align: center; font-size: 16px; font-weight: bold; border-bottom: 2px solid #400010;}
+	.nav .sub li a:hover{background: #facf5f;}
+
+#main_section{width: 750px; height: 850px; background: #ffffff;}
+	#banner{width: 100%; height: 300px; background: #aaaaaa; position: relative; overflow: hidden;}
+	#banner ul{width: 750px; height: 900px;}
+	#banner ul li{position: absolute;}
+	#banner ul li:nth-child(1){top: 0; left: 0;}
+	#banner ul li:nth-child(2){top: 100%; left: 0;}
+	#banner ul li:nth-child(3){top: 200%; left: 0;}
+	
+	#notice{width: 100%; height: 260px; background: #ffffff;}
+		#notice h3{padding-top: 30px; margin-left: 38px; border-bottom: 1px solid #aaaaaa;}
+		.board li{padding-left: 40px;}
+		.board ul li a{width: 80%; float: left; font-size: 14px; color: #333333; line-height: 2.1; border-bottom: 1px solid #aaaaaa;}
+		.board ul li span{float: left; width: 20%; font-size: 14px; border-bottom: 1px solid #aaaaaa; line-height: 2.1;}
+	
+	#shortcut{width: 100%; height: 290px; background: #eeeeee; position: relative;}
+		.img{float: left; width: 240px; height: 290px; margin-left: 7px;}
+		#shortcut p{height: 50px; width: 500px; position: absolute; line-height: 1.7; color: #ffffff; font-weight: bold; font-size: 18px; padding: 20px;}
+		#shortcut p{color: #400010;}
+		#shortcut p.bright{color: #bdbdae;}
+
+#footer{float: left; width: 100%; height: 150px; background: #400010;}		
+	#footer address{text-align: center; font-style: normal; padding-top: 30px;}	
+	#footer p{color: #ffdfbf; font-weight: bold; font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+﻿/* body{background: red;} */
+#header{width: 1000px; height: 400px; margin: 0 auto; background: yellow; position: relative;}
+.box1{background: red; float: right;}
+.box2{background: green; float: right;}
+.box3{background: blue; float: right;}
+
+
+/* 17 float inline비슷 */

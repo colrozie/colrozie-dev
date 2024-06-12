@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>예약 문의</title>
+	<meta charset="UTF-8" />
+</head>
+<!-- 라벨에서 for를 넣을 땐 for와 id를 통일해야한다 Why?하나만 선택가능해서 or DB에 저장할 때 같은 항목 안에서 분류해야하니까-->
+<!-- 라디오 버튼의 기능은 반드시 하나만을 선택할 수 있다 (컴퓨터가 위에서 아래로 코딩하기 때문)-->
+<!-- 체크박스는 중복선택이 가능하여 checked를 중복으로 넣을 수 있다-->
+<!-- 라벨로 감쌀 거면 인풋은 들여쓰기 꼭 id는 다 달라야하고 같이 못 씀-->
+<body>
+	<h1>예약 문의</h1>
+	<form action="#" method="post">
+		<p>
+			작성자
+			<input name="userName" type="text" />
+		</p>
+		<p>
+			비밀번호
+			<input name="userPWD" type="password" />
+		</p>
+		<p>
+			제목
+			<input name="userTitle" type="text" />
+		</p>
+		<p>예약하실 객실을 선택하세요.
+			<label for="userRoom1">Single</label>
+			<input type="radio" name="userRoom" id="userRoom1" value="Single" checked />
+			<label for="userRoom2">Double</label>
+			<input type="radio" name="userRoom" id="userRoom2" value="Double" />
+		</p>
+		<p>기타 패키지 옵션을 선택하세요 <br/>
+			<label>
+				<input type="checkbox" name="userOption1" value="조식" checked />
+				조식
+				<input type="checkbox" name="userOption2" value="바베큐" />
+				바베큐
+				<input type="checkbox" name="userOption3" value="수영장" checked />
+				수영장
+			</label>
+		</p>
+	</form>
+</body>
+</html>

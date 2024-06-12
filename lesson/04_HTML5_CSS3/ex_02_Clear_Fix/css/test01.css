@@ -1,0 +1,7 @@
+﻿/* body{background: red;} */
+
+.parent{position: relative; background: yellow;}
+.child{width: 200px; height: 100px; background: red;}
+.last{background: #0000ff; height: 150px;}
+
+.fl{float: left;}

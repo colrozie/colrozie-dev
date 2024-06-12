@@ -1,0 +1,36 @@
+﻿/* body{background: red;}  */
+
+/* transform */
+#book1{background: url(../images/snow_book1.png) no-repeat; width: 300px; height: 193px;
+	-o-transform: rotate(25deg);
+	-o-transform-origin: 20% 40%;
+	-ms-transform: rotate(25deg); /* 각도 */
+	-ms-transform-origin: 20% 40%; /* x축 y축 */
+	-moz-transform: rotate(25deg);
+	-moz-transform-origin: 20% 40%;
+	-webkit-transform: rotate(25deg);
+	-webkit-transform-origin: 20% 40%;
+	transform: rotate(25deg);
+	transform-origin: 20% 40%;
+}
+#book2{background: url(../images/snow_book2.png) no-repeat left bottom; width: 269px; height: 213px;
+	-o-transform: rotate(-15deg);
+	-o-transform-origin: 50% 50%;
+	-ms-transform: rotate(-15deg); /* 각도 */
+	-ms-transform-origin: 50% 50%; /* x축 y축 */
+	-moz-transform: rotate(-15deg);
+	-moz-transform-origin: 50% 50%;
+	-webkit-transform: rotate(-15deg);
+	-webkit-transform-origin: 50% 50%;
+	transform: rotate(-15deg);
+	transform-origin: 50% 50%;
+}
+
+
+
+
+
+
+
+
+

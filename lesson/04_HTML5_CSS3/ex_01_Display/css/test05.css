@@ -1,0 +1,5 @@
+﻿/* body{background: red;} */
+
+#box{display: inline; background-color: red; /* width: 300px; height: 50px; */ margin: 10px; padding: 10px;}
+
+/* width, height 값 의미X = inline은 컨텐츠 크기이다. */

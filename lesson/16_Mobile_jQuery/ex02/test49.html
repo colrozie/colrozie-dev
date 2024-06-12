@@ -1,0 +1,48 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1" data-position="fixed">
+        <div data-role="header">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+            <p>basic page</p>
+			<a href="#dialog1" data-role="button" data-rel="dialog">bubble box page1</a> <!-- a태그에 dialog속성을 억지로 부여함 -->
+			<a href="#dialog2" data-role="button">bubble box page2</a>
+        </div>
+        <div data-role="footer" data-role="fixed">
+            <h4>Footer</h4>
+        </div>
+    </div>
+	
+    <div data-role="page" id="dialog1" data-role="fixed">
+        <div data-role="header">
+            <h1>dialog1</h1>
+        </div>
+        <div data-role="content">
+            <p>basic page</p>
+			<a href="#page1" data-role="button" data-rel="dialog">basic page1</a>
+			<a href="#dialog2" data-role="button">bubble box page2</a>
+        </div>
+	</div>
+	
+    <div data-role="dialog" id="dialog2" data-role="fixed"> <!-- 기본형 data-role을 dialog로 해야한다 -->
+        <div data-role="header">
+            <h1>dialog2</h1>
+        </div>
+        <div data-role="content">
+            <p>bubble box page2</p>
+			<a href="#page1" data-role="button" data-rel="dialog">basic page1</a>
+			<a href="#dialog1" data-role="button">bubble box page1</a>
+        </div>
+	</div>	
+</body>
+</html>

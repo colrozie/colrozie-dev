@@ -1,0 +1,4 @@
+﻿/* body{background-color: red;} */
+
+p:first-letter{font-size: 30px;}
+p:first-line{color: #ffddcc; background-color: #bc9caf;}

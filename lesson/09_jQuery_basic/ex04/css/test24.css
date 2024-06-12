@@ -1,0 +1,16 @@
+﻿/* body{background: red;} */
+*{margin: 0; padding: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+body{margin: 150px; font-size: 3em; color: #333333;}
+
+#div1{width: 200px; height: 100px; font-size: 20px; background: #ffccba; text-align: center; line-height: 100px;}
+
+
+
+
+
+
+
+
+

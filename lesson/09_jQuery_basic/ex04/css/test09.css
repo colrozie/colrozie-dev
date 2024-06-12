@@ -1,0 +1,36 @@
+﻿/* body{background: red;} */
+*{margin: 0; padding: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+body{margin: 150px;}
+
+input{padding: 5px 20px;}
+input:focus{outline: 4px solid #ffefbf;}
+select{padding: 10px; background: #ffe1f5;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+﻿/* body{background: red;} */
+
+body, dl, dt, dd, p, ul, li{margin: 0;}
+body{font: 0.75em '맑은 고딕', 돋움, Arial; color: #fff; background: #000 url(../images/bg_event.png) no-repeat center 35px; min-width: 485px; height: 551px;}
+header h1, header h2, header h3{display: none;}
+nav{background-color: #ff6634; border-bottom: 2px solid #fff; height: 40px;}
+nav ul{list-style: none; padding: 10px; text-align: center;}
+nav ul li{display: inline;}
+nav ul li a{text-decoration: none; color: #000; font-size: 1.1em; padding: 10px 5px;}
+nav ul li a:hover{color: #fff; background-color: #000; border-radius: 10px;}
+

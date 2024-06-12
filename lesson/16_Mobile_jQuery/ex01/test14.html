@@ -1,0 +1,43 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page2">
+        <div data-role="content">
+            <p>content area</p>
+			<h1>second page</h1>
+        </div>
+        <div data-role="footer" data-id="footerid1" data-position="fixed">
+            <div data-role="navbar">
+				<ul>
+					<li><a href="#page2" class="ui-btn-active ui-state-persist">page2</a></li> <!-- 지속 유지(다른 페이지 이동이 있어도) -->
+					<li><a href="#page3">page3</a></li>
+				</ul>
+			</div>
+			<h4>footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="page3">
+        <div data-role="content">
+            <p>content area</p>
+			<h1>second page</h1>
+        </div>
+        <div data-role="footer" data-id="footerid1" data-position="fixed">
+            <div data-role="navbar">
+				<ul>
+					<li><a href="#page2" class="ui-btn-active ui-state-persist">page2</a></li>
+					<li><a href="#page3">page3</a></li>
+				</ul>
+			</div>
+			<h4>footer</h4>
+        </div>
+    </div>
+</body>
+</html>

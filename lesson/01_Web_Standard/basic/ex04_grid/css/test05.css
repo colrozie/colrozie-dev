@@ -1,0 +1,18 @@
+﻿/* body{background-color: red;} */
+*{margin: 0; padding: 0;}
+body{background: url(../images/grid_back_02.gif) repeat;}
+
+#wrap{height: 210px; width: 770px;}
+#menu{height: 210px; width: 140px; background-color: #fff;}
+
+.box3_11{height: 210px; width: 770px;}
+.box1_3{height: 70px; width: 210px;}
+.box1_1{height: 70px; width: 70px;}
+
+.color1{background-color: #ff9900;}
+.color2{background-color: #ffcc00;}
+.color3{background-color: #ffff99;}
+
+
+
+

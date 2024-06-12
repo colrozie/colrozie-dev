@@ -1,0 +1,17 @@
+﻿/* body{background: red;} */
+
+.box1{background: red; width: 100px; height: 100px; margin-bottom: 70px; margin: 50px; padding: 50px; border: 10px solid black;}
+
+.box2{background: #ff00ff; width: 100px; height: 100px; margin-bottom: 70px; border: 10px solid black;}
+
+.box3{background: pink; width: 100px; height: 100px; margin-bottom: 70px; margin: 50px; padding: 50px; border: 10px solid black;
+	-moz-box-sizing: content-box;
+}
+.box4{background: blue; width: 100px; height: 100px; margin-bottom: 70px; margin: 50px; padding: 50px; border: 10px solid black;
+	-moz-box-sizing: border-box;
+}
+
+/* 파이어폭스만 적용됨 지정한 대로 크기가 바뀜 계산이 쉬움*/
+
+
+

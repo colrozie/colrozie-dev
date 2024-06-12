@@ -1,0 +1,68 @@
+﻿/* body{background: red;} */
+*{margin: 0; padding: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+ul, li{list-style: none;}
+a{text-decoration: none;}
+div{box-sizing: border-box;}
+
+/* 임시코드 */
+h1, h2, h3, div{font-size: 16px; font-weight: normal; /* text-indent: -55555px; */}
+
+/* 레이아웃 */
+#wrap{width: 1200px; margin: 50px auto; height: 850px;}
+#sidemenu{width: 300px; height: 850px;}
+	.logo{width: 300px; height: 150px; background: #ffeeff;}
+	.nav{width: 300px; height: 700px; background: #ffdd22; box-sizing: border-box;}
+	.nav li{text-align: center; background: #fdfd33; margin-bottom: 1px;}
+	.nav li a{display: block; padding: 10px; color: aqua; background: rgba(0,0,0,.3);}
+	.nav li a:hover{background: rgba(0,0,0,.4);}
+	/* .nav li .sub{display: none;} */
+	.nav li .sub li a{background: #ffdd33;}
+	.nav li .sub li a:hover{background: rgba(0,0,0,.3);}
+#section{width: 900px; height: 850px;}
+	#banner{width: 900px; height: 450px; background: #ffccff;}
+	#contents>div{width: 33.333333%; height: 300px;}
+	.content1{background: #555555; background: #ff00ff;}
+	.content2{background: #777777; background: #ff66ff;}
+	.content3{background: #999999; background: #ff99ff;}
+#footer{}
+	.footer1{width: 200px; height: 100px; background: #ffccff;}
+	.footer2{width: 700px; height: 50px; background: #ffeeff;}
+	.footer3{width: 700px; height: 50px; background: #ffaaff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

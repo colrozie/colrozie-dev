@@ -1,0 +1,337 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="N분의 1" />
+	<meta name="keywords" content="Home, Index, N분의 1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- AND 홈화면 추가시 상단 주소창 제거 -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<!-- IOS 홈화면 추가시 상단 주소창 제거 -->
+	<meta name="mobile-mobile-web-app-capable" content="yes">
+	<title>N분의 1</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap" rel="stylesheet"> <!-- noto sans kr 한글 폰트 -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet"> <!-- roboto 영문폰트 -->
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+    <div data-role="page" id="onboard1" class="onboardCom">
+        <div data-role="content">
+			<a href="#main"><img src="images/n.png" alt="logo" style="margin: 50px 0;"/></a>
+			<img src="images/onboard1.png" alt="onboard1" style="display: block; margin: 0 auto; margin-bottom: 30px;"/>
+			<h2>내가 가진 것을 N분의 1로!</h2>
+			<h6>
+				대용량으로 구매해야 저렴한 상품을 <br/>
+				보신 적 있나요? 혼자서도 <br/>
+				이젠 어렵지 않게 나눠봐요! <br/>
+			</h6>
+			<div class="indicator">
+				<a href="#;" class="step1 on"></a>
+				<a href="#onboard2" class="step2"></a>
+				<a href="#onboard3" class="step3"></a>
+			</div>
+			<a class="button" href="#tuto1">Next</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="onboard2" class="onboardCom">
+        <div data-role="content">
+			<a href="#main"><img src="images/n.png" alt="logo" style="margin: 50px 0;"/></a>
+			<img src="images/onboard2.png" alt="onboard2" style="display: block; margin: 0 auto; margin-bottom: 30px;"/>
+			<h2>배달음식도 N분의 1!</h2>
+			<h6>
+				배달비가 고민이거나 혼자 먹기엔 <br/>
+				양이 너무 많으신가요? <br/>
+				N분의 1어플로 나눠보세요! <br/>
+			</h6>
+			<div class="indicator">
+				<a href="#onboard1" class="step1"></a>
+				<a href="#;" class="step2 on"></a>
+				<a href="#onboard3" class="step3"></a>
+			</div>
+			<a class="button" href="#onboard3">Next</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="onboard3" class="onboardCom">
+        <div data-role="content">
+			<a href="#main"><img src="images/n.png" alt="logo" style="margin: 50px 0;"/></a>
+			<img src="images/onboard3.png" alt="onboard3" style="display: block; margin: 0 auto; margin-bottom: 30px;"/>
+			<h2>무엇이든 나눌 수 있다면 OK!</h2>
+			<h6>
+				새로 산 물건도, 사고 싶은 음식도 <br/>
+				가지고 있지만 처치곤란인 물건 <br/>
+				모두 N분의 1로! <br/>
+			</h6>
+			<div class="indicator">
+				<a href="#onboard1" class="step1"></a>
+				<a href="#onboard2" class="step2"></a>
+				<a href="#;" class="step3 on"></a>
+			</div>
+			<a class="button" href="#tuto1">Tutorial</a>
+			<a class="tutoBtn" href="#tuto1">Skip Tutorial</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="tuto1" class="tutoCom">
+        <div data-role="header" class="cf" data-position="fixed">
+            <div data-role="navbar" class="nav">
+				<ul>
+					<li><a href="#location1" data-role="button"><img src="images/header1.png" alt="위치 아이콘"/></a></li>
+					<li><a href="#main" data-role="button"><img src="images/n.png" alt="로고"/></a></li>
+					<li><a href="#allmenu" data-role="button"><img src="images/header3.png" alt="전체메뉴 아이콘"/></a></li>
+				</ul>
+			</div>
+        </div>
+        <div data-role="content">
+            <div class="tutoBg"></div>
+            <label>
+				<input type="text" name="return" id="search" placeholder="search"/>
+			</label>
+            <div class="tag">
+                <h3>인기 태그</h3>
+                <ul>
+                    <li><p></p><a href="#">무료</a></li>
+                    <li><p></p><a href="#">택배나눔</a></li>
+                    <li><p></p><a href="#">배달</a></li>
+                    <li><p></p><a href="#">벼룩나눔</a></li>
+                </ul>
+            </div>
+
+            <div class="con1 contents">
+                <h3>원하는 상품을 N/1로 나눠보세요!</h3>
+                <ul>
+                    <li><a href="#"><img src="images/clipboard.png" alt=""></a></li>
+                    <!-- <p>최신글</p> -->
+                    <li><a href="#"><img src="images/gift.png" alt=""></a></li>
+                    <!-- <p>묶음상품</p> -->
+                    <li><a href="#"><img src="images/shipping truck.png" alt=""></a></li>
+                    <!-- <p>배달</p> -->
+                    <li><a href="#"><img src="images/Internet.png" alt=""></a></li>
+                    <!-- <p>해외직구</p> -->
+                </ul>
+            </div>
+            <div class="con2 contents">
+                <h3>최신글</h3><!--  <span>더보기</span> -->
+                <ul>
+                    <li class="box cf">
+                        <img src="images/3-1.jpg" alt="" class="fl thumb">
+                        <div class="boxCon fl">
+                            <h4>안양 6동 파파존스</h4>
+                            <p><img src="images/Star - Small.png" alt=""> 1분 전</p>
+                            <p><img src="images/Group.png" alt=""> 안양 6동, 솔잎 아파트</p>
+                            <p class="price">₩ 26,000/2</p>
+                        </div>
+
+                    </li>
+                    <li class="box cf">dksdid</li>
+                    <li class="box cf">dksdid</li>
+                </ul>
+            </div>
+            <div class="con3 contents">
+                <h3>쇼핑하기</h3> <!-- <span>더보기</span> -->
+            </div>
+            <button class="more">더보기</button>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" class="nav">
+				<ul>
+					<li><a href="#main" data-role="button"><img src="images/footer11.png" alt="홈 아이콘"/></a></li>
+					<li><a href="#pay1" data-role="button"><img src="images/footer2.png" alt="충전 아이콘"/></a></li>
+					<li><a href="#chatlist" data-role="button"><img src="images/footer3.png" alt="채팅 아이콘"/></a></li>
+					<li><a href="#my" data-role="button"><img src="images/footer4.png" alt="내정보 아이콘"/></a></li>
+				</ul>
+			</div>
+        </div>
+    </div>
+
+    <div data-role="page" id="tuto2" class="tutoCom">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="tuto3" class="tutoCom">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="tuto4" class="tutoCom">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="login">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="signup">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="main">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="my">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="chatlist">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="chatroom">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="allmenu">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="post1">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="post2">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="pay1">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="pay2">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="location1">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="location2">
+        <div data-role="header" class="cf" data-position="fixed">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

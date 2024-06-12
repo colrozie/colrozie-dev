@@ -1,0 +1,35 @@
+﻿/* body{background: red;} */
+*{margin: 0; padding: 0; border: 0;}
+a{display: block; text-decoration: none;}
+ul, li{list-style: none;}
+.cf:after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+
+#div1{display: block;}
+#div2{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+﻿/* body{background: red;} */
+
+dl{
+	-0-box-shadow: 10px 5px 20px 15px #888888;
+	-ms-box-shadow: 10px 5px 20px 15px #888888;
+	-moz-box-shadow: 10px 5px 20px 15px #888888;
+	-webkit-box-shadow: 10px 5px 20px 15px #888888;
+	box-shadow: 10px 5px 20px 15px #888888;
+	/* offset-x offset-y blur (두께)thickness color 값을 지정합니다. */
+}

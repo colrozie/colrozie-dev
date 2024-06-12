@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>연습</title>
+    <script>
+        function modifi()
+        {
+            a=new Date(document.lastModified)
+            x=a.getYear()
+            y=a.getMonth()+1
+            z=a.getDate()
+            document.write("이 홈페이지의 최종 수정 날짜는", x, "년", y, "월", z, "일입니다.")
+        }
+    </script>
+</head>
+<body onload="modifi()">
+</body>
+</html>

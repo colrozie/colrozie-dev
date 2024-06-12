@@ -1,0 +1,9 @@
+﻿/* body{background: red;} */
+
+.box1{background: red; width: 100px; height: 100px; margin-bottom: 70px;}
+.box2{background: green; width: 100px; height: 100px; margin-top: 100px;}
+.box3{background: blue; width: 100px; height: 100px;}
+
+/* 레이아웃 만들 땐 margin을 아랫방향으로 준다 같은 방향으로 겹칠 시 큰 값이 적용 됨*/
+
+

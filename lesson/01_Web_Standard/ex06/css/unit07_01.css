@@ -1,0 +1,7 @@
+﻿/* body{background-color: red;} */
+li:first-child{color: #ffccff; background-color: #225555; width: 500px; padding: 10px;}
+li:nth-child(even){color: #ffccff; background-color: #fa9bcc; width: 500px; padding: 10px;}
+li:nth-child(odd){color: #ffccff; background-color: #99e6ff; width: 500px; padding: 10px;}
+li:nth-child(3n+3){color: #999999; background-color: #ffe6ff; width: 500px; padding: 10px;}
+li:last-child{color: #222222; background-color: #d90036; width: 500px; padding: 10px;}
+

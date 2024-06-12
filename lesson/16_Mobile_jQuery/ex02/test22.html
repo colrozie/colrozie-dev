@@ -1,0 +1,32 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Header area</h1>
+			<a href="#;">a tag button1</a>
+			<a href="#;">a tag button2</a>
+        </div>
+        <div data-role="content">
+            <p>content area</p>
+			<a href="#;">a tag button3</a> <!-- default a tag -->
+			<a data-role="button" href="#;">a tag button4</a>
+			<a data-role="button" href="#;" data-inline="true">a tag button5</a>
+			<a data-role="button" href="#;" data-mini="true">a tag button6</a>
+        </div>
+        <div data-role="footer" data-position="fixed">
+			<a href="#;">a tag button7</a> <!-- inline-block -->
+            <h4>Footer</h4>
+			<a href="#;">a tag button8</a>
+        </div>
+    </div>
+</body>
+</html>

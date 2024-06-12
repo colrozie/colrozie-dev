@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>조건문 4</title>
+	<style type="text/css">
+		body{white-space: pre;}
+	</style>
+    <script>
+         day="월"
+         document.write(day + "요일에는")
+    
+         switch(day)
+         {
+              case "월" : 
+              case "수" : document.write("오전 10시에 수업 시작")
+              break
+    
+              case "화" : 
+              case "목" : document.write("오후 2시에 수업 시작")
+              break
+    
+              case "금" : document.write("오전 11시에 수업 시작")
+              break
+    
+              default: document.write("월요일에서 금요일까지만 입력하세요")
+         }
+    </script>
+<body>	
+	day="월"
+	document.write(day + "요일에는")
+
+	switch(day)
+	{
+	  case "월" : 
+	  case "수" : document.write("오전 10시에 수업 시작")
+	  break
+
+	  case "화" : 
+	  case "목" : document.write("오후 2시에 수업 시작")
+	  break
+
+	  case "금" : document.write("오전 11시에 수업 시작")
+	  break
+
+	  default: document.write("월요일에서 금요일까지만 입력하세요")
+	}
+</html>

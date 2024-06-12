@@ -1,0 +1,13 @@
+﻿/* body{background: red;} */
+
+#box1{background: #ff6699; overflow: hidden; height: 200px;}
+#box2{background: #33ccff; overflow-y: scroll; height: 200px;}
+/* body{overflow-y: scroll;} 낮은 버전 호환 X */
+html{overflow-y: scroll;} /* 웹페이지 넣기 */
+
+#box3{background: #33ccff; overflow: auto; height: 200px;}
+#box4{position: relative; background: #66cc33; height: 400px; clear: left;}
+#box4 h1{position: absolute; clip: rect(0px, 200px, 150px, 0px)} /* 마스크는 반대 y,x */
+
+#box5{position: relative; background: #cc99ff; height: 400px;}
+#box5 h1{position: absolute; clip: rect(150px, 200px, 400px, 0px)} 

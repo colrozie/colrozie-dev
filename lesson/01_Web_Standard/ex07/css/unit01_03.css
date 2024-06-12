@@ -1,0 +1,7 @@
+﻿/* body{background-color: red;} */
+
+body{font: 1.2em '맑은 고딕', sans-serif;}
+h1{direction: rtl;}
+
+.nowrapP{white-space: nowrap;}
+.preP{white-space: pre;}

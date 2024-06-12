@@ -1,0 +1,15 @@
+﻿ /* body{background: red;} */
+ 
+body{margin-top: 30px; font: 1.2em Verdana, sans-serif; background-color: #cccccc;}
+h1, ul, li{margin: 0; padding: 0;}
+h1{padding-bottom: 20px; text-align: center; font-size: 2em; color: #fff;
+font-style: italic; text-shadow: 0 0 10px #666;}
+a{text-decoration: none;}
+#photoBox{margin: 0 auto; width: 330px;}
+#tabNavi{list-style: none; padding-left: 100px;}
+#tabNavi li{float: left; margin-left: 2px;}
+#tabNavi li a{font-size: 0.85em; color: #ff9966; text-align: center; diaplay: block; width: 50px; padding: 3px 10px; background-color: #fff; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+#tabNavi li a:hover{color: #fff; background-color: #ff9966;}
+#tabNavi li.activeS a{color: #fff; background-color: #ff9966;}
+#photo{border: 5px solid #ff6633; border-radius: 15px; clear: both; background-color: #fff;}
+#photo img{display: block; margin: 0 auto;}

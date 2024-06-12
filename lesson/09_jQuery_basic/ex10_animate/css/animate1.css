@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+@import url(common.css);
+
+.box_in .box{width: 176px; height: 176px;}
+
+/* 보여지는 가로와 세로 크기 */
+.box_in .box>div{width: 176px; height: 176px; overflow: hidden;}
+.box_in .box .box1>a>img{position: absolute; top: 176px; left: 0;}
+.box_in .box .box1>a{display: block; position: relative; width: 176px; height: 176px; background: url(../images/point.png) no-repeat;}
+
+

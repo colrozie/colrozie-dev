@@ -1,0 +1,40 @@
+﻿/* body{background: red;} */
+*{}
+body{background: url(../main_page3.jpg) no-repeat center top;}
+/* 초기화 */
+body, div, ul, li, dl, dt, dd, ol, p, h1, h2, h3, h4, h5, h6, form{margin: 0; padding: 0;}
+body{font: normal Dotum, '돋움', sans-serif; color: red;}
+ul, ol, dl{list-style: none;}
+img{border: 0; vertical-align: top;}
+
+.cf:after{content: ''; display: block; clear: both;}
+
+/* 레이아웃 큰 박스 속성 */
+#lay_out{margin: 0 auto; width: 900px;}
+#ub_top{width: 900px; height: 145px; background: rgba(0,0,0,.5); margin-bottom: 15px;}
+#ub_left{float: left; width: 645px;}
+#ub_right{float: right; width: 245px;}
+#ub_bot{float: left; width: 900px; background: rgba(0,0,0,.5); margin-top: 20px;}
+
+/* 중앙 좌측 상단 박스 속성 */
+#ub_box{float: left; width: 615px; background: rgba(0,0,0,.5); margin-bottom: 15px; padding: 15px;}
+#ub_main_bn{float: left; width: 615px; height: 120px; background: rgba(255,255,255,.5); margin-bottom: 15px;}
+#ub_main_comm{float: left; width: 615px; height: 170px; background: rgba(255,255,255,.5); margin-bottom: 15px;}
+#ub_main_link{float: left; width: 615px; height: 100px; background: rgba(255,255,255,.5);}
+
+/* 중앙 좌측 하단 박스 속성 */
+#ub_movie{float: left; width: 645px; height: 230px; background: rgba(0,0,0,.5); margin-bottom: 15px;}
+#ub_ads{float: left; width: 645px; height: 70px; background: rgba(0,0,0,.5);}
+
+/* 중앙 우측 상단 박스 속성 */
+#ub_login{width: 245px; height: 175px; background: rgba(0,0,0,.5); margin-bottom: 10px;}
+#ub_event{width: 245px; height: 265px; background: rgba(0,0,0,.5); margin-bottom: 17px;}
+
+/* 중앙 우측 하단 박스 속성 */
+#ub_box_right{width: 215px; height: 283px; background: rgba(0,0,0,.5); padding: 15px;}
+#ub_poll{float: left; width: 215px; height: 186px; background: rgba(255,255,255,.5); margin: 0 0 15px 0;}
+#ub_notice{float: left; width: 215px; height: 80px; background: rgba(255,255,255,.5);}
+
+/* 하단 박스 속성 */
+#bot_menu{float: left; width: 900px; height: 30px; background: rgba(125,125,125,.5);}
+#bot_copy{float: left; width: 900px; height: 27px; text-align: center; background: rgba(60,60,60,.5);}

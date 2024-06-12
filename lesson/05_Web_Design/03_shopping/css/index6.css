@@ -1,0 +1,83 @@
+/* 초기화 코드 */
+*{margin: 0; padding: 0; border: 0;}
+ul, li{list-style: none;}
+a{display: block; text-decoration: none; color: #222328;}
+
+.cf:after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+.hidden{text-indent: -9999em; font-size: 0; color: #ffffff; display: none; visibility: hidden; position: absolute; left: -9999px;}
+
+.pop{width: 100%; height: 100%; background: rgba(0,0,0,.4); position: absolute; z-index: 999; top: 0; left: 0; display: none;}
+.pop .pop_wrap{width: 500px; height: 500px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #ffffff; padding: 30px; box-sizing: border-box;}
+.pop h2{padding-top: 40px; text-align: center;}
+.pop h3{padding-top: 30px; text-align: center;}
+.pop p{padding-top: 50px; font-size: 16px; line-height: 2;}
+.pop button{position: absolute; right: 50px; bottom: 50px; background: #cccccc; width: 100px; height: 50px; border: none; cursor: pointer;}
+
+/* layout */
+#wrap{width: 1200px; height: 700px; margin: 50px auto;}
+
+/* header */
+#header{width: 100%; height: 100px; background: #ffffff;}
+    .logo{float: left; width: 200px; height: 100px; line-height: 100px;}
+    .nav{float: right; width: 800px; height: 100px;}
+    .nav>ul>li{float: left; position: relative;}
+    .nav>ul>li>a{background: #ffffff;}
+    .nav ul li a{font-size: 19px; text-align: center; padding: 20px 0; width: 200px;}
+    .nav ul li a:hover{background: #a23131; color: #ffffff; transition: all .3s;}
+    .nav .sub{position: absolute; z-index: 99; display: none;}
+    .nav .sub li a{font-size: 15px; background: #f5f5f5;}
+
+/* banner */
+#banner{width: 100%; height: 300px; position: relative; overflow: hidden;}
+    #banner ul{width: 3600px; height: 300px;}
+    #banner ul li{position: absolute;}
+    #banner ul li:nth-child(1){left: 0; top: 0;}
+    #banner ul li:nth-child(2){left: 100%; top: 0;}
+    #banner ul li:nth-child(3){left: 200%; top: 0;}
+
+/* contents */
+#contents{width: 100%; height: 200px;}
+    #contents > article{float: left; width: 390px; height: 180px; margin: 10px 5px; box-sizing: border-box;}
+    .content1 .tab_menu ul li{float: left;}
+    .content1 .tab_menu ul li a{font-size: 14px; background: #8f2121; color: #ffffff; border: 1px solid #8f2121; padding: 7px 20px; border-bottom: none; border-radius: 8px 8px 0 0;}
+    .content1 .tab_menu ul .active a{background: #ffffff; color: #3f3b3b;}
+    .tab_contents{position: relative; z-index: -50; top: -1px;}
+    .tab_contents > div{width: 380px; height: 138px; border: 1px solid #b3002d; font-size: 13px; padding: 10px; line-height: 1.8; box-sizing: border-box; letter-spacing: -1px; position: absolute;}
+    .tab_contents .board ul li{letter-spacing: -1px;}
+    .tab_contents .board ul li a{display: block; float: left; width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; border-bottom: 1px solid #dddddd;}
+    .tab_contents .board ul li a.last{border-bottom: none;}
+
+    .tab_contents .board ul li span{width: 15%; display: block; float: right; font-size: 12px; line-height: 2;}
+    .tab_contents .gallery{display: none;}
+    .tab_contents .gallery ul li{float: left; margin-top: 7px;}
+    .tab_contents .gallery ul li img{margin-right: 13px;}
+    .tab_contents .gallery ul li:last-child img{margin-right: 0;}
+    .content3 ul{border: 4px double #d0d0d0; box-sizing: border-box;}
+    .content3 ul li{float: left; border: 1px solid #eaeaea; margin-right: 13px;}
+    .content3 ul li:last-child{margin-right: 0;}
+
+/* footer */
+#footer{width: 100%; height: 100px;}
+    #footer > div{float: left;}
+    .f_logo{width: 200px; height: 100px; line-height: 108px;}
+    .f_copy{width: 770px; height: 80px; padding-top: 20px; padding-left: 30px;}
+        .f_copy p{line-height: 1.2; font-size: 15px; font-weight: bold; color: #666666;}
+    .f_sns{width: 200px; height: 100px; padding-top: 25px;}
+    .f_sns .sns li{float: left; width: 50px; height: 30px; overflow: hidden; background: url(../img/social_icon1.jpg) no-repeat 0 0; background-size: 100%; margin-left: 5px;}
+    .f_sns .sns li.twitter{background-position: 0 -60px; opacity: 0.5;}
+    .f_sns .sns li.facebook{background-position: 0 -30px; opacity: 0.5;}
+    .f_sns .sns li.youtube{background-position: 0 -85px; opacity: 0.5;}
+
+
+
+
+
+
+
+
+
+
+
+
+

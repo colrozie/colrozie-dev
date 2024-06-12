@@ -1,0 +1,17 @@
+d: (d 드라이브 경로 지정)
+cd project (project 폴더로 이동)
+cordova create project01 (project01 생성)
+cd project01 (project01 폴더로 이동)
+cordova platform add android (android 플랫폼 추가)
+------여기까지 하고 올릴파일 www 폴더에 넣고 (index.html 필수)--------
+cordova build android (빌드하기)
+
+안드로이드 아이콘 경로
+
+C:\project\node_modules\cordova-android\templates\project\assets\www
+//파비콘
+C:\project\node_modules\cordova-android\templates\project\res
+//스플래시 이미지 - 온보딩
+C:\project\platforms\android\app\src\main\res
+//아이콘
+

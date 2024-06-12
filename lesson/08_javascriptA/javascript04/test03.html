@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>함수에서 변수 사용할 때 주의할점</title>
+	<style>
+		body{white-space: pre;}
+	</style>
+    <script>
+        function sdsd(a,b)
+        {
+            var c=a+b         // 지역변수 선언 c=30, var 지우고 다시 실행
+            document.write(c)
+            document.write("<br />")
+        }
+
+        function sd()
+        {
+            d=c+2
+            document.write(d)
+        }
+    </script>
+</head>
+<body>
+    <script>
+        sdsd(10,20)
+        document.write(c+1)
+        document.write("<br>")
+
+        sd()
+    </script>
+	<br/>
+	sdsd(10,20)
+	document.write(c+1)
+
+	sd()
+	<br/>
+	function sdsd(a,b)
+	{
+		var c=a+b         // 지역변수 선언 c=30, var 지우고 다시 실행
+		document.write(c)
+	}
+
+	function sd()
+	{
+		d=c+2
+		document.write(d)
+	}	
+</body>
+</html>

@@ -1,0 +1,7 @@
+﻿/* body{background: red;} */
+/* 초기화 */
+*{margin: 0; padding: 0; border: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+.cf:after{content: ''; display: block; clear: both;}
+.hidden{font-size: 0; color: #ffffff; text-indent: -99999em; display: none; visibility: hidden;}

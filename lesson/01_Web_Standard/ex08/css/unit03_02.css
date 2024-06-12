@@ -1,0 +1,5 @@
+﻿/* body{background: red;} */
+
+#topMenu{list-style: none; width: 100%; background-color: #660000; margin: 0; padding: 10px; text-align: center;}
+#topMenu li{display: inline; padding-left: 50px;}
+#topMenu li.first{padding-left: 0px;}

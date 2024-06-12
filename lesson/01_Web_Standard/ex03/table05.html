@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>table05</title>
+	<link rel="stylesheet" href="css/table01.css"/>
+</head>
+<body>
+	<h1>테이블 삽입하기</h1>
+	<hr/>
+	<table>
+	<caption>동찬팬션 객실</caption>
+	<colgroup>
+		<col/>
+		<col span="1" style="background: #ffff00;"/>
+		<col span="2" style="background: #ffff99;"/>
+	<colgroup/>	
+		<thead>
+			<tr>
+				<th>방이름</th>
+				<th>대상</th>
+				<th>크기</th>
+				<th>가격</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>달님방</th>
+				<td>4인실</td>
+				<td>적당히 큼</td>
+				<td>100만원</td>
+			</tr>
+			<tr>
+				<th rowspan="2">햇님방</th>
+				<td>동성도미토리</td>
+				<td>아주 넓음</td>
+				<td>1000만원</td>
+			</tr>
+			<tr>
+				<td>4인실</td>
+				<td>가족실</td>
+				<td>100만원</td>
+			</tr>
+			<tr>
+				<th>햇님방</th>
+				<td>-</td>
+				<td>아주넓음</td>
+				<td>1000만원</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="4">바깥채 전체를 렌트합니다</td>
+			</tr>
+		</tfoot>
+	</colgroup>
+	</table>
+</body>
+</html>

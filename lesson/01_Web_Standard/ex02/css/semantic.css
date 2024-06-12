@@ -1,0 +1,9 @@
+﻿/* body{background: #ff0000;} */
+header{width: 700px; background: #ff0000;}
+section{width: 700px; background: #ffff00;}
+footer{width: 700px; background: #0000ff;}
+aside{width: 100px; background: #00ffff;}
+article{width: 500px; background: #ff00ff;}
+.fl{float: left;}
+.cl{clear: left;}
+

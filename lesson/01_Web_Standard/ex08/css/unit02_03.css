@@ -1,0 +1,4 @@
+﻿/* body{background: red;} */
+header{background-color: #666; width: 100%; position: fixed; top: 10px; left: 0px;}
+nav{width: 200px; border: 1px solid #666; background-color: #efefef; padding: 15px; position: fixed; top: 80px; left: 50px;}
+section{margin: 80px 0 50px 350px; width: 500px;}

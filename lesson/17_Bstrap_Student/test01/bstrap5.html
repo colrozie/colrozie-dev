@@ -1,0 +1,71 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Test</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+		*{margin: 0; padding: 0;}
+		.intro .container{padding-bottom: 6px;}
+		.intro .header h4{margin-top: 24px; text-indent: 4px;}
+		body{
+			font-family: 'Helvetica Nenu', 'Nanum Gothic', Helvetica, Arial;}
+		.intro{
+			margin-top: 50px; background: #636363; color: #ffffff; padding-bottom: 0;}
+		.intro .header{
+			font-weight: bold;}
+		.intro .header > h1{
+			font-family: 'Montserrat', sans-serif; font-size: 4em; font-weight: 700;}
+		.intro .detail > h2{
+			color: #f5fc1e; font-weight: bold;}
+		.intro .detail > p{
+			font-size: 1em;}
+		.intro .list ul{
+			list-style: none; margin-top: 30px;}
+		.intro .list li{
+			margin-top: 10px; padding: 5px 30px 5px 10px; background: #bf9e53; color: #fff0cc;}
+			
+	</style>
+    <!-- [if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="header col-lg-2">
+					<h4>제주의 풍경</h4>
+					<h1>2723펜&nbsp;&nbsp;션</h1>
+				</div>
+				<div class="detail col-lg-6 col-lg-push-4"><!-- push 밀기 -->
+					<h2>하이브리드앱</h2>
+					<h4>Ajax를 사용하여 데이터 바인딩</h4>
+					<p>어느 공간에서든 펜션의 정보와 예약이 가능학데 끔 전화걸기 기능과 맵기능을
+						모바일에서 아이콘 형태도 만들어 바로 contact 할 수 있게 만들었습니다.
+						<small> - 하이브리드 앱</small>
+					</p>
+					<p>변동하는 가격 정보를 엑셀로 데이터 쉽게 변경가능
+						<small> - Ajax 데이터 바인딩</small>
+					</p>
+					<p><a class="btn btn-warning">자세히 보기</a></p>
+				</div>
+				<div class="list col-lg-4 col-lg-pull-6"><!-- pull 당기기 -->
+					<ul>
+						<li>디바이스를 고려한 하이브리드앱</li>
+						<li>낮은 브라우저에서도 반응형 가능</li>
+						<li>디바이스를 고려한 하이브리드앱</li>
+						<li>디바이스를 고려한 하이브리드앱</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

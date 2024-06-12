@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>함수의 재규적 호출</title>
+	<style>
+		body{white-space: pre;}
+	</style>
+</head>
+<body>
+    <script>
+        function A(x)
+        {
+            if(x>1)
+            {
+                var y=x*A(x-1)
+                return y
+            }
+            else return x
+        }
+    document.write(A(5))
+    </script>
+	<br/>
+	function A(x)
+	{
+		if(x>1)
+		{
+			var y=x*A(x-1)
+			return y
+		}
+		else return x
+	}
+    document.write(A(5))
+</body>
+</html>

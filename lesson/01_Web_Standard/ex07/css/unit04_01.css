@@ -1,0 +1,16 @@
+﻿/* body{background-color: red;} */
+/* 아주중요 */
+/* background-attachment: scroll; */
+/* background-position: center center; */
+/* background-position: right bottom; */
+/* background-repeat: no-repeat; */
+
+body{margin: 0;}
+body{background-color: silver;
+background-image: url(../images/bg0.png); background-repeat: repeat-y; background-position: right top; background-attachment: fixed;}
+div{background: url(../images/bg1.png); reapeat-y fixed left top; padding: 20px; width: 80%;}
+
+p{background: #000; url(../images/dot.png); repeat-x left bottom;   
+font-family: 'Times New Roman', serif; font-size: 1.2em; color: #ffffff; margin-left: 70px;}
+
+/* 9가지 x,y 순서 */

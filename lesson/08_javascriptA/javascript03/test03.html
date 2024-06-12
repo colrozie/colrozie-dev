@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>DO WHILE문</title>
+	<style>
+		body{white-space: pre;}
+	</style>    
+    <script>
+        x=0
+        total=0
+
+        do
+        {
+            x++
+            total=total+x
+
+            document.write(x)
+            if(x!=10)document.write("+")
+        }
+
+        while(x<10)
+        document.write("="+ total)
+    </script>
+</head>
+<body>
+	WHILE문은 조건을 확인한 후에 문장을 실행하지만, DO WHILE문은 실행한 다음 조건을 확인하도록 해주는 반복문이다. 그러므로 DO WHILE문은 조건에 상관없이 반복 문장을 최소 한번은 실행하게 된다.
+
+	do
+	{ A }
+	while (조건)
+	B
+
+	사용예) 1부터 10까지의 합 계산
+</body>
+</html>

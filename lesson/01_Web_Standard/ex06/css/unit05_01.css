@@ -1,0 +1,7 @@
+﻿/* body{background-color: red;} */
+h2>span{color: #ff0000;}
+body>dl span{text-decoration: underline; display: block; line-height: 150%; color: red;}
+body span{text-decoration: underline; display: block; line-height: 150%; color: blue;}
+
+/* >는 바로 밑에 있는 레벨만 그냥 띄어쓰기는 밑에 포함돼 있으면 나타남 */
+/* 코딩순서가 위에 있어도 더 자세하게 적은 게 나타남 */

@@ -1,0 +1,21 @@
+﻿<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>가을동화</title>
+    <script>
+        var num = 2;
+        function timer () {
+            if(document.shot.complete) {
+                document.shot.src = "fall" + num + ".gif";
+                num++; if(num > 4) num = 1;
+            }
+            setTimeout("timer()", 2000);
+        }
+    </script>
+</head>
+<body  style="background: #e89828 url(back.gif) no-repeat;"  onLoad="timer();">
+	<p style="text-align: center;"><img src="fall1.gif" name="shot" border="1"></p>
+</body>
+
+</html>

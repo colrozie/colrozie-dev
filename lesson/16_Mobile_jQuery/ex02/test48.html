@@ -1,0 +1,57 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+		<div data-role="panel" id="panel1" data-display="overlay" data-theme="b">
+			<form>
+				<h3>login panel</h3>
+				<label for="name">user name:</label>
+				<input type="text" name="name" id="name" value="" data-mini="true" data-clear-btn="true"/>
+				<label for="password">password:</label>
+				<input type="password" name="password" id="password" value="" data-mini="true" data-clear-btn="true"/>
+				<div class="ui-grid-a">
+					<div class="ui-block-a"><a href="#;" data-role="button" data-rel="close">cancle</a></div>
+					<div class="ui-block-b"><a href="#;" data-role="button" data-rel="close">save</a></div>
+				</div>
+			</form>
+		</div>
+		
+		<div data-role="panel" id="panel2" data-display="overlay">
+			<ul data-role="listview">
+				<li data-icon="delete"><a href="#" data-rel="close">menu panel over</a></li>
+				<li><a href="#;">menu1</a></li>
+				<li><a href="#;">menu2</a></li>
+				<li><a href="#;">menu3</a></li>
+				<li><a href="#;">menu4</a></li>
+			</ul>
+		</div>
+		
+		<div data-role="panel" id="panel3" data-display="overlay" data-position="right">
+			<h3>panel memo</h3>
+			<p>This is right memo panel area.</p>
+			<a href="#page1" data-role="button" data-rel="close" data-inline="true">panel over</a>
+		</div>
+		
+		<div data-role="header">
+			<h1>Header</h1>
+		</div>
+		<div data-role="content">
+			<a href="#panel1" data-role="button" data-inline="true">login panel</a>
+			<a href="#panel2" data-role="button" data-inline="true">menu panel</a>
+			<a href="#panel3" data-role="button" data-inline="true">memo panel</a>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+    </div>
+</body>
+</html>

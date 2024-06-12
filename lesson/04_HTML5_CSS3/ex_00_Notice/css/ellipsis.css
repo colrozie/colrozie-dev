@@ -1,0 +1,4 @@
+﻿/* body{background:red;} */
+
+div{border: 3px solid #000;}
+.ellipsis{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}

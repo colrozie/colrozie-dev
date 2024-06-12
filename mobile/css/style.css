@@ -1,0 +1,69 @@
+﻿*{
+font-family: 'Noto Sans KR','Roboto', sans-serif;
+color: #2B2727;
+text-shadow: none;
+margin: 0;
+padding: 0;}
+
+html{overflow-y: scroll;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+body{background: #ffffff; overflow-y: scroll;}
+.cf:after{content:''; display:block; clear: both;}
+.fl{float:left;}
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a{text-decoration:none; color: #555555; color: #FFC061;}
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited{text-decoration:none;color: #555555;color: #FFC061;}
+.ui-mobile-viewport-transitioning,.ui-mobile-viewport-transitioning .ui-page {overflow:scroll;}
+.nav ul li a > img{width: 25px;}
+
+/* onboard common*/
+.onboardCom{width: 100%; height: 100%;}
+.onboardCom > div{text-align: center;}
+.onboardCom h2{font-family: 'Noto Sans KR', sans-serif; color: #2B2727; font-size: 1.7em; margin-bottom: 20px;}
+.onboardCom h6{font-family: 'Noto Sans KR', sans-serif; color: #A6A6A6; font-size: 1.1em; margin-bottom: 30px; font-weight: 400; line-height: 1.5;}
+.onboardCom .indicator{width: 57px; height: 20px; margin: 0 auto; margin-bottom: 30px; display: flex; justify-content: space-between;}
+.onboardCom .indicator a{background: #FFE9C9; width: 12px; height: 12px; border-radius: 50%; cursor: pointer;}
+.onboardCom .indicator a.on{background: #FFC061; cursor: default;}
+.onboardCom a.button{clear: both; background: #FFC061; border-radius: 50px; text-align: center; width: 190px; margin: 0 auto; color: #ffffff; padding: 20px 30px; font-family: 'Roboto'; font-weight: 500; font-size: 1.344em;}
+.onboardCom a.button:hover{color: #efefef;}
+
+/* #onboard3 */
+#onboard3 a.tutoBtn{text-decoration: underline; color: #FFC061;}
+
+/* tuto common */
+.tutoCom{background: #3298dc;}
+/* .tutoBg{width:100%; height: 100%; background: rgba(3, 3, 0, 0.332); position: fixed; top: 0; left: 0; z-index: 50;} */
+.tutoCom .contents, .tutoCom .tag{clear: both;  width: 500px; margin: 0 auto;}
+.tutoCom .contents span{font-size: 0.75em; color: #9D9D9D;}
+/* .tutoCom span{float: left;} */
+.tutoCom label{border-radius: 50px;}
+.tutoCom label input{padding: 1.4em; background: #F5F4F8; outline: none; border-radius: 50px;}
+.tutoCom .tag ul{width: 90%; height: 55px; display: flex;}
+.tutoCom .tag ul li{background: #F5F4F8; padding: 0.7em 0.3em;  border-radius: 50px; margin-right: 45px; display: flex;}
+.tutoCom .tag ul li:last-child{margin: 0;}
+.tutoCom .tag ul li p{width: 32px; height: 32px; background: #ffffff; border-radius: 50%;}
+.tutoCom .tag ul li a{color: #555555; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; font-size: 0.7em; width: 48px; line-height: 32px; text-indent: 5px; padding-left: 10px;}
+.tutoCom .con1 ul{display: flex; justify-content: space-between;}
+.tutoCom .con1 ul li{background: #FFC061; width: 80px; height: 80px; border-radius: 18px;}
+.tutoCom .con1 ul li a{text-align: center; line-height: 90px;}
+.tutoCom .con1 ul li a img{text-align: center;}
+.tutoCom .con2 .box{width: 90%; height: 190px; background: red; border-radius: 27px; margin-bottom: 10px;}
+.tutoCom .con2 .box img.thumb{width: 45%; padding: 1em 0.8em; border-radius: 27px;}
+.tutoCom .con2 .box .boxCon{padding: 1em 0.8em; border-radius: 27px;}
+    .box .boxCon h4{font-size: 1em; margin-bottom: 10px;}
+    .box .boxCon p{font-size: 0.7em; margin-bottom: 5px; color: #9D9D9D;}
+    .box .boxCon p > img{width: 10px;}
+    .box .boxCon p.price{font-size: 1.5em; margin-top: 55px; color: #2B2727; font-family: 'Roboto'; font-weight: 500;}
+/* #tuto1 */
+
+/* #tuto2 */
+
+/* #tuto3 */
+
+/* #tuto4 */
+
+/* #main */
+
+
+
+

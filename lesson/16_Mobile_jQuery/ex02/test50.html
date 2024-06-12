@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+            <p>basic page</p>
+			<a href="#dialog1" data-transition="slidedown">action sheet page1</a>
+			<a href="#dialog2" data-transition="slidedown">action sheet page2</a>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>Footer</h4>
+        </div>
+    </div>
+	
+    <div data-role="dialog" id="dialog1">
+        <div data-role="content">
+            <p>action sheet1</p>
+			<a href="#" data-role="button">select1</a>
+			<a href="#" data-role="button">select2</a>
+			<a href="#" data-role="button">select3</a>
+			<a href="#" data-role="button">select4</a>
+			<a href="#" data-role="button" data-rel="back">cancle</a>
+        </div>
+	</div>
+	
+    <div data-role="dialog" id="dialog2">
+        <div data-role="content">
+            <p>action sheet2</p>
+			<a href="#" data-role="button" data-rel="back">yes</a>
+			<a href="#dialog1" data-role="button">no</a>
+        </div>
+	</div>
+</body>
+</html>

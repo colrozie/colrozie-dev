@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1" data-title="첫번째 페이지">
+        <div data-role="header">
+            <h1>첫번째 페이지</h1>
+        </div>
+        <div data-role="content">
+			<a href="#page2">page2</a>
+        </div>
+        <div data-role="footer">
+            <h4>내부링크방식</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="page2">
+        <div data-role="header">
+            <h1>두번째 페이지</h1>
+        </div>
+        <div data-role="content">
+            <p>페이지 전환 애니메이션 효과</p>
+			<a href="#page1" data-direction="reverse">page1</a><br/>
+			<a href="#page3">page3 기본 전환효과 적용</a><br/>
+			<a href="#page3" data-transition="slide">page3 slide 적용</a><br/>
+			<!-- 왼쪽으로 수평이동(기본효과) -->
+			<a href="#page3" data-transition="slideup">page3 slideup 적용</a><br/>
+			<!-- 위쪽으로 수직이동 -->
+			<a href="#page3" data-transition="slidedown">page3 slidedown 적용</a><br/>
+			<!-- 아래쪽으로 수직이동 -->
+			<a href="#page3" data-transition="flip">page3 flip 적용</a><br/>
+			<!-- 수평이동후 서서히 -->
+			<a href="#page3" data-transition="fade">page3 fade 적용</a><br/>
+			<!-- Y축 기준으로 회전 -->
+			<a href="#page3" data-transition="pop">page3 pop 적용</a><br/>
+			<!-- 중앙에서 확장 -->
+			<a href="#page3" data-transition="turn">page3 turn 적용</a><br/>
+			<!-- 뒤집기 -->
+			<a href="#page3" data-transition="flow">page3 flow 적용</a><br/>
+			<!-- 축소 후 좌우 이동 -->
+			<a href="#page3" data-transition="none">page3 none 적용</a><br/>
+			<!-- 효과 없음 -->
+        </div>
+        <div data-role="footer">
+            <h4>내부링크방식</h4>
+        </div>
+    </div>
+
+	<div data-role="page" id="page3" data-title="세번째 페이지">
+		<div data-role="header">
+			<h1>세번째 페이지</h1>
+		</div>
+		<div data-role="content1">
+			<a href="#page1">page1</a><br/>
+			<a href="#somepage" data-rel="back">page2</a><br/>
+		</div>
+        <div data-role="footer">
+            <h4>내부링크방식</h4>
+        </div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

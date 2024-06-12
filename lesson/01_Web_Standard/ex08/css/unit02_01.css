@@ -1,0 +1,14 @@
+﻿/* body{background: red;} */
+
+#titlePage{position: absolute; /* position: relative; position:  fixed; */ top: 0px; left: 0px;}
+
+#book1{background: url(../images/bg_sm01.png) no-repeat; position: absolute; bottom: 50%; left: 50%; margin-bottom: -75px; margin-left: -171px;}
+#book2{background: url(../images/bg_sm02.png) no-repeat; position: absolute; bottom: 50%; right: 50%; margin-bottom: -75px; margin-right: -171px;}
+#book3{background: url(../images/bg_sm03.png) no-repeat; position: absolute; top: 50%; right: 50%; margin-top: -75px; margin-right: -171px;}
+#book4{background: url(../images/bg_sm04.png) no-repeat; position: absolute; top: 50%; left: 50%; margin-top: -75px; margin-left: -171px;}
+
+/* absolute 기준점 브라우저기준*/
+/* z-index: 3; >순서를 위로 뜨게 함 숫자는 의미X*/
+/* 사분면에서 꼭짓점을 중심으로 이동 */
+/* 꼭짓점 이동 값 = 마진 값 */
+/* 가로나 세로 값의 반 만큼 마진을 줘야함 */

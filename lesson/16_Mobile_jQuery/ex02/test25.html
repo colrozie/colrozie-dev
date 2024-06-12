@@ -1,0 +1,31 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<!-- 사용자 정의 attr -->
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Header</h1>
+        </div>
+        <div data-role="content">
+			<button data-icon="delete" data-inline="true">1_취소</button>
+			<button data-icon="check">2_확인</button>
+			<button data-icon="delete" data-iconpos="notext" data-inline="true">3_취소</button>
+			<button data-icon="check" data-iconpos="notext" data-inline="true">4_확인</button>
+			<button data-role="none" data-icon="refresh" data-iconpos="notext" data-inline="true">5_새로고침버튼</button>
+			<input type="button" value="6_검색버튼" data-icon="search" data-iconpos="notext"/> 
+			<a href="#" data-role="button" data-icon="info" data-iconpos="notext">7_정보버튼</a><!-- data-iconpos="notext" 텍스트가 있어도 아이콘만 보임-->
+        </div>
+        <div data-role="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+</body>
+</html>

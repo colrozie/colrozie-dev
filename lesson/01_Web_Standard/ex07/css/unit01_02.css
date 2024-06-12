@@ -1,0 +1,9 @@
+﻿/* body{background-color: red;} */
+body{font: 0.95em '맑은 고딕', sans-serif;}
+/* td, input(X) */
+#box1 h2{word-spacing: 20px; text-align: center; letter-spacing: -1px;}
+
+#box1 p{letter-spacing: 5px; line-height: 200%;}
+
+#box2 h2{text-decoration: line-through; text-transform: uppercase;}
+#box2 p{text-indent: 10%; text-decoration: underline;}

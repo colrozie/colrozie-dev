@@ -1,0 +1,359 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Test</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <!-- [if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	body{width: 100%; margin: 100px auto;}
+	h1{margin-bottom: 50px;}
+	h2{font-weight: bold; font-size: 20px;}
+	#page1 .container {
+		padding-right: 15px; padding-left: 15px;
+		margin-right: auto; margin-left: auto;
+	}
+	@media (min-width: 768px) {
+		#page1 .container {width: 750px;}
+	}
+	@media (min-width: 992px) {
+		#page1 .container {width: 970px;}
+	}
+	@media (min-width: 1200px) {
+		#page1 .container {width: 1170px;}
+	}
+	@media (min-width: 1600px) {
+		#page1 .container {width: 1570px;}
+	}
+	#page1 .row {
+		margin-bottom: 15px;	}
+	#page1 [class*='col-'] {
+		padding-top: 15px; padding-bottom: 15px;
+		background-color: #79a3c8; border: 2px solid #ffffff; color: #ffffff; font-weight: bold;}
+
+	@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+	*{margin: 0; padding: 0;}
+	.intro .container{padding-bottom: 6px;}
+	.intro .header h4{margin-top: 24px; text-indent: 4px;}
+	body{
+		font-family: 'Helvetica Nenu', 'Nanum Gothic', Helvetica, Arial;}
+	.intro{
+		margin-top: 50px; background: #636363; color: #ffffff; padding-bottom: 0;}
+	.intro .header{
+		font-weight: bold;}
+	.intro .header > h1{
+		font-family: 'Montserrat', sans-serif; font-size: 4em; font-weight: 700;}
+	.intro .detail > h2{
+		color: #f5fc1e; font-weight: bold;}
+	.intro .detail > p{
+		font-size: 1em;}
+	.intro .list ul{
+		list-style: none; margin-top: 30px;}
+	.intro .list li{
+		margin-top: 10px; padding: 5px 30px 5px 10px; background: #bf9e53; color: #fff0cc;}
+		
+	.login {
+		width: 620px;
+		background:#fff;
+		margin: 30px auto;
+		border:1px solid #e5e5e5;
+		-moz-box-shadow: rgba(200,200,200,.7) 0 4px 10px -1px;
+		-webkit-box-shadow: rgba(200,200,200,.7) 0 4px 10px -1px;
+		box-shadow: rgba(200,200,200,.7) 0 4px 10px -1px;
+	}
+	.login h1 a {
+		background-image:url(images/logo.png);
+		background-repeat:no-repeat;
+		background-position:center top;
+		background-size:189px 47px;
+		height:47px;
+		margin:50px auto 10px;
+		padding:0;
+		width:189px;
+		text-indent:-99999px;
+		overflow:hidden;
+		display:block;
+	}
+	.login form {
+		width: 620px;
+		margin:0px auto;
+		border:none;
+		padding: 40px;
+	}
+	#page1 th{background: #cfdefe;}
+	tr, th, td{text-align: center;}
+	h2, h3{margin-bottom: 20px; font-size: 20px; font-weight: bold; background: #cfdefe; display: inline-block; padding: 10px 20px; border-radius: 20px;}
+	p{font-size: 16px; font-weight: bold;}
+	.line{margin: 30px 0;}
+	#page1 .table{outline: 1px solid #bfcfff; width: 500px; margin: 0 auto 20px;}
+	.point{background: white; box-sizing: border-box; border: 2px dashed #aaaaaa; padding: 20px;}
+</style>
+<body>
+    
+	<!-- *=====* 너비 키워드 *=====* -->
+    <!-- 스마트폰 768px미만 .col-xs- -->
+    <!-- 태블릿 768px이상 .col-sm- -->
+    <!-- 데스크탑 992px이상 .col-md- -->
+    <!-- 큰 데스크탑 1200px이상 .col-lg- -->
+	<div id="page1">
+		<div class="container"> <!-- default font-size: 14px 한 행(row)에 12칸 숫자는 열(column) 수 -->
+			<h1 style="font-weight: bold; font-size: 25px;">Bootstrap 총정리</h1>
+			<table class="table">
+				<tr>
+					<th>스마트폰</th>
+					<td>768px미만 .col-xs-</td>
+				</tr>
+				<tr>
+					<th>태블릿</th>
+					<td>768px이상 .col-sm-</td>
+				</tr>
+				<tr>
+					<th>데스크탑</th>
+					<td>992px이상 .col-md-</td>
+				</tr>
+				<tr>
+					<th>큰 데스크탑</th>
+					<td>1200px이상 .col-lg-</td>
+				</tr>
+			</table>
+			<table class="table">
+				<tr>
+					<th>.visible-xs-</th>
+					<td>표시</td>
+					<td>감춤</td>
+					<td>감춤</td>
+					<td>감춤</td>
+				</tr>
+				<tr>
+					<th>.visible-sm-</th>
+					<td>감춤</td>
+					<td>표시</td>
+					<td>감춤</td>
+					<td>감춤</td>
+				</tr>
+				<tr>
+					<th>.visible-md-</th>
+					<td>감춤</td>
+					<td>감춤</td>
+					<td>표시</td>
+					<td>감춤</td>
+				</tr>
+				<tr>
+					<th>.visible-lg-</th>
+					<td>감춤</td>
+					<td>감춤</td>
+					<td>감춤</td>
+					<td>표시</td>
+				</tr>
+			</table>
+			
+			<table class="table">
+				<tr>
+					<th>.hidden-xs-</th>
+					<td>감춤</td>
+					<td>표시</td>
+					<td>표시</td>
+					<td>표시</td>
+				</tr>
+				<tr>
+					<th>.hidden-sm-</th>
+					<td>표시</td>
+					<td>감춤</td>
+					<td>표시</td>
+					<td>표시</td>
+				</tr>
+				<tr>
+					<th>.hidden-md-</th>
+					<td>표시</td>
+					<td>표시</td>
+					<td>감춤</td>
+					<td>표시</td>
+				</tr>
+				<tr>
+					<th>.hidden-lg-</th>
+					<td>표시</td>
+					<td>표시</td>
+					<td>표시</td>
+					<td>감춤</td>
+				</tr>
+			</table>
+
+			<div class="line" style="width: 100%; height: 1.5px; background: #999999;"></div>
+			
+			<h3>중요 Point!</h3>
+			<div class="point">
+				<p><i class="bi bi-chat-square-text"></i> 클래스만 쓰는 라이브러리 / 아이디 값으로 우선순위 정해주기 / 기본폰트 사이즈 14px / 한 행(row) 열(column)12칸</p>
+				<p>col-lg-push-4 밀기</p>
+				<p>col-lg-pull-4 당기기</p>
+				<p>sr-only 스크린 리더기에만</p>
+				<p>col-lg-offset-4 간격조절</p>
+				<p>drop-down 드롭다운메뉴</p>
+			</div>
+			
+			<h2>부트 스트랩 가변 그리드</h2>
+			<div class="row">
+				<div class="col-lg-6">col-lg-6</div>
+				<div class="col-lg-6">col-lg-6</div>
+				<div class="col-lg-6">col-lg-6</div>
+				<div class="col-lg-6">col-lg-6</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">col-sm-4</div>
+				<div class="col-sm-4">col-sm-4</div>
+				<div class="col-sm-4">col-sm-4</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">col-md-2</div>
+				<div class="col-md-2">col-md-2</div>
+				<div class="col-md-6">col-md-6</div>
+				<div class="col-md-2">col-md-2</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">col-xs-12</div>
+				<div class="col-xs-12">col-xs-12</div>
+				<div class="col-xs-12">col-xs-12</div>
+				<div class="col-xs-12">col-xs-12</div>
+			</div>
+		</div>
+	</div>
+	
+    <div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="header col-lg-2">
+					<h4>제주의 풍경</h4>
+					<h1>2723펜&nbsp;&nbsp;션</h1>
+				</div>
+				<div class="detail col-lg-6 col-lg-push-4"><!-- push 밀기 -->
+					<h2>하이브리드앱</h2>
+					<h4>Ajax를 사용하여 데이터 바인딩</h4>
+					<p>어느 공간에서든 펜션의 정보와 예약이 가능학데 끔 전화걸기 기능과 맵기능을
+						모바일에서 아이콘 형태도 만들어 바로 contact 할 수 있게 만들었습니다.
+						<small> - 하이브리드 앱</small>
+					</p>
+					<p>변동하는 가격 정보를 엑셀로 데이터 쉽게 변경가능
+						<small> - Ajax 데이터 바인딩</small>
+					</p>
+					<p><a class="btn btn-warning">자세히 보기</a></p>
+				</div>
+				<div class="list col-lg-4 col-lg-pull-6"><!-- pull 당기기 -->
+					<ul>
+						<li>디바이스를 고려한 하이브리드앱</li>
+						<li>낮은 브라우저에서도 반응형 가능</li>
+						<li>디바이스를 고려한 하이브리드앱</li>
+						<li>디바이스를 고려한 하이브리드앱</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="page3">
+		<h2>부트스트랩 폼(form)</h2>
+		<div class="login">
+			<h1><a tabindex="-1" title="더조은아카데미" href="#">더조은아카데미</a></h1>
+			<form role="form" name="loginform" id="loginform" action="wp-login.php" method="post">
+				<div class="row">
+					<div class="form-group col-md-5 col-sm-6">
+						<label for="user_login" class="sr-only">사용자명</label> <!-- class="sr-only" 스크린리더기에서만 읽힘 -->
+						<div class="col-md-9">
+							<input type="text" name="log" id="user_login" class="form-control" placeholder="사용자명">
+						</div>
+					</div>
+					<div class="form-group col-md-5 col-sm-6">
+						<label for="user_pass" class="sr-only">비밀번호</label>
+						<div class="col-md-9">
+							<input type="password" name="pwd" id="user_pass" class="form-control" placeholder="비밀번호">
+						</div>
+					</div>
+					<div class="form-group col-md-2 col-sm-12">
+						<input type="submit" name="submit" id="submit" value="로그인" class="btn btn-primary btn-block">
+					</div>
+				</div>
+			</form>
+		</div>	
+	</div>
+	
+	<div id="page4">
+		<h2>Table 속성</h2>
+		<div class="">
+			<table class="table table-striped">
+				<tr>
+					<th>강좌명</th>
+					<th>소개</th>
+					<th>링크</th>
+				</tr>
+				<tr>
+					<th>웹퍼블리셔 (초급)</th>
+					<td>웹 디자인은 코딩으로 구현합니다. 이 강의에서는 최신 HTML5 표준안과 웹 브라우저 호환성을 반영한 웹 디자인을 배우게 됩니다.</td>
+					<td><a href="#;" class="btn btn-default" role="button">더보기</a></td>
+				</tr>
+				<tr>
+					<th>웹퍼블리셔 (중급)</th>
+					<td>웹 디자인은 코딩으로 구현합니다. 이 강의에서는 최신 HTML5 표준안과 웹 브라우저 호환성을 반영한 웹 디자인을 배우게 됩니다.</td>
+					<td><a href="#;" class="btn btn-default" role="button">더보기</a></td>
+				</tr>
+				<tr>
+					<th>웹퍼블리셔 (고급)</th>
+					<td>웹 디자인은 코딩으로 구현합니다. 이 강의에서는 최신 HTML5 표준안과 웹 브라우저 호환성을 반영한 웹 디자인을 배우게 됩니다.</td>
+					<td><a href="#;" class="btn btn-default" role="button">더보기</a></td>
+				</tr>
+				<tr>
+					<th>반응형 웹퍼블리싱</th>
+					<td>웹 디자인은 코딩으로 구현합니다. 이 강의에서는 최신 HTML5 표준안과 웹 브라우저 호환성을 반영한 웹 디자인을 배우게 됩니다.</td>
+					<td><a href="#;" class="btn btn-default" role="button">더보기</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div id="page5">
+		<h2>Buttons</h2><br/>
+		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-secondary">Secondary</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-info">Info</button>
+		<button type="button" class="btn btn-light">Light</button>
+		<button type="button" class="btn btn-dark">Dark</button>
+		<button type="button" class="btn btn-link">Link</button>
+		
+		<button type="button" class="btn btn-outline-primary">Primary</button>
+		<button type="button" class="btn btn-outline-secondary">Secondary</button>
+		<button type="button" class="btn btn-outline-success">Success</button>
+		<button type="button" class="btn btn-outline-danger">Danger</button>
+		<button type="button" class="btn btn-outline-warning">Warning</button>
+		<button type="button" class="btn btn-outline-info">Info</button>
+		<button type="button" class="btn btn-outline-light">Light</button>
+		<button type="button" class="btn btn-outline-dark">Dark</button>
+		
+		<button type="button" class="btn btn-primary btn-lg">Large button</button>
+		<button type="button" class="btn btn-primary btn-sm">Small button</button>
+		<button type="button" class="btn btn-primary btn-xs">Tiny button</button>
+		
+		<button type="button" class="btn btn-primary" disabled>Primary button</button>
+		<button type="button" class="btn btn-secondary" disabled>Button</button>
+		<button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+		<button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+		<div class="d-grid gap-2" style="margin-bottom: 20px;">
+		  <button class="btn btn-primary" type="button">Block Button</button>
+		  <button class="btn btn-primary" type="button">Block Button</button>
+		</div>
+		<div class="d-grid gap-2 col-6 mx-auto">
+		  <button class="btn btn-primary" type="button">Button</button>
+		  <button class="btn btn-primary" type="button">Button</button>
+		</div>
+	</div>
+</body>
+</html>

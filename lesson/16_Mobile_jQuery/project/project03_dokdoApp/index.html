@@ -1,0 +1,235 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="독도앱 독도문방구" />
+	<meta name="keywords" content="Home, Index, 경상북도, 경상북도 독도, 독도, 독도문방구, 독도앱, 독도소개" />		
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- AND 홈화면 추가시 상단 주소창 제거 -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<!-- IOS 홈화면 추가시 상단 주소창 제거 -->
+	<meta name="mobile-mobile-web-app-capable" content="yes">
+	<title>독도앱 독도문방구</title>
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="css/jquery.lightbox-0.5.css" />
+	<link rel="stylesheet" href="css/dokdo.css" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/jquery.lightbox-0.5.js"></script>
+	<script src="js/script.js"></script>
+	<style type="text/css">
+		#movie ul, #movie li{list-style: none; margin: 0; padding: 0;}
+	</style>
+</head>
+<body>
+	<div data-theme="a">
+		<div data-role="page" id="home">
+			<div data-role="header" data-theme="a">
+				<h1>독도 소개 앱</h1>
+			</div>
+			<div data-role="content" style="text-align: center;">
+				<img src="images/bgdokdo1.png" style="margin: 20px auto;"/>
+				<ul data-role="listview" data-inset="true">
+					<li><a href="#intro">독도소개</a></li>
+					<li><a href="#movie" data-rel="dialog">독도영상</a></li>
+					<li><a href="#wizard3-1" data-rel="dialog">독도음악</a></li>
+					<li><a href="#gallery">독도사진</a></li>
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<h4 style="font-size: 12px; color: #999999;">copyright© eunjeong 2022 col_1a. All right reserved.</h4>
+			</div>
+		</div>
+		
+		<div data-role="page" id="intro" data-theme="a">
+			<div data-role="header" data-theme="a">
+				<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+				<h1>독도 소개</h1>
+			</div>
+			<div data-role="content">
+					<div style="text-align: center; margin: 30px auto;">
+						<img src="images/bgdokdo2.png" width="100%"/>	
+					</div>
+				<div data-role="collapsible-set" data-theme="a" data-content-theme="b">
+					<div data-role="collapsible" data-collapsed="false">
+						<h3>독도역사</h3>
+						<p>독도(獨島)라는 명칭은 한국어와 중국어 화자들이 일반적으로 사용하는 이름이다. 인도유럽어권에서는 리앙주르 바위섬, 일본어권에서는 다케시마 섬이라 부른다. 20세기 초까지는 독도, 석도 또는 마쓰시마라 불리었다... 생략</p>
+					</div>
+					<div data-role="collapsible">
+						<h3>독도역사</h3>
+						<p>돋고는 주로 두 개의 섬으로 이루어지며ㅑ 150 미터ㅗ 떨어진 두 섬은 동도와 서도로 불린다. 약 90개의 섬과 암초로 이루어진 신생대 화산암으로 구성되어 있다. 독도는 동경 약 131 52 위도 약 37 14에 위치한다. ...생략</p>
+					</div>
+					<div data-role="collapsible">
+						<h3>독도역사</h3>
+						<p>900명이 넘는 한국인 시민들이 이 섬에 거주하며, 실제로 영구거주를 하는 사람은 단 두 사람이다. 한국 정부는 거주 주장을 하기 위하여 이들에게 보조금을 지불하고 있다... 생략</p>
+					</div>
+					
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<h4 style="font-size: 12px; color: #999999;">copyright© eunjeong 2022 col_1a. All right reserved.</h4>
+			</div>
+		</div>
+		
+		<div data-role="page" id="movie" data-theme="a" style="margin-top: -40px;">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>독도 영상</h1>
+			</div>
+			<div data-role="content">
+				<div class="ui-bar ui-bar-b">외교부 독도 소개 동영상</div><br/>
+				<ul>
+					<li><iframe width="100%" height="240" src="http://www.youtube.com/embed/muB4_LNZ2Rk"></iframe></li><br/>
+				</ul>
+				<div class="ui-bar ui-bar-b">플래시몹(서울역광장) 동영상</div><br/>
+				<ul>
+					<li><video controls width="100%" preload="metadata"><source src="mop.mp4" type="video/mp4"></source></video></li><br/>
+				</ul>
+			</div>
+			<div data-role="footer" data-theme="a">
+			</div>
+		</div>
+		
+		<div data-role="page" id="wizard3-1">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>독도 노래1</h1>
+			</div>
+			<div data-role="content">
+				<div class="ui-bar ui-bar-a">홀로 아리랑</div><br/>
+				<audio controls width="100%" preload="metadata">
+					<source src="arirangalone.mp3" type="audio/mp3"></source>
+				</audio>
+				<img src="images/3-1.jpg" alt="노래가사" width="100%"/>
+			</div>
+			
+			<div data-role="footer">
+				<a href="#home" data-direction="reverse">이전</a>
+				<a href="#wizard3-2" data-rel="dialog" data-transition="slide">다음</a>
+			</div>
+		</div>
+		
+		<div data-role="page" id="wizard3-2">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>독도 노래2</h1>
+			</div>
+			<div data-role="content">
+				<div class="ui-bar ui-bar-e">독도는 우리땅</div><br/>
+				<audio controls width="100%" preload="metadata">
+					<source src="dokdo.mp3" type="audio/mp3"></source>
+				</audio>
+				<img src="images/3-2.jpg" alt="노래가사" width="100%"/>
+			</div>
+			
+			<div data-role="footer">
+				<a href="#wizard3-1" data-direction="reverse">이전</a>
+				<a href="#home">처음</a>
+			</div>
+		</div>
+		
+		<div data-role="page" id="gallery" data-theme="a">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+				<h1>독도 갤러리</h1>
+			</div>
+			<div data-role="content">
+				<div class="ui-bar ui-bar-B">독도의 아름다운 전경</div><br/>
+				<div class="ui-body ui-body-a picture">
+					<ul>
+						<li>
+							<a href="images/4-1.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-1.jpg"/>
+							</a>
+							<h3>아름다운 독도의 봄</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-2.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-2.jpg"/>
+							</a>
+							<h3>초록색으로 우거진 숲 독도</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-3.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-3.jpg"/>
+							</a>
+							<h3>영험하게 느껴지는 독도</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-4.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-4.jpg"/>
+							</a>
+							<h3>밤하늘의 독도</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-6.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-6.jpg"/>
+							</a>
+							<h3>동도의 독립문 바위</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						
+						<li>
+							<a href="images/4-7.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-7.jpg"/>
+							</a>
+							<h3>노을지는 아름다운 정경</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-8.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-8.jpg"/>
+							</a>
+							<h3>선착장에서 조망한 서도의 모습</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-9.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-9.jpg"/>
+							</a>
+							<h3>동도의 독립문 바위</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-10.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-10.jpg"/>
+							</a>
+							<h3>독도를 지키는 개 동상</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-11.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-11.jpg"/>
+							</a>
+							<h3>동도의 모습</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+						<li>
+							<a href="images/4-12.jpg" title="동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄, 동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄">
+							<img src="images/4-12.jpg"/>
+							</a>
+							<h3>새벽녘의 독도</h3>
+							<p>동도 선착장에 위치한 조면암맥인 숯돌바위와 아름다운 독도의 봄</p>
+						</li>
+					</ul>
+				</div><br/>
+				
+			
+			<div data-role="footer" data-position="fixed" data-theme="a">
+				<h4 style="font-size: 12px; color: #999999;">copyright© eunjeong 2022 col_1a. All right reserved.</h4>
+			</div>
+		</div>
+		
+		
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+

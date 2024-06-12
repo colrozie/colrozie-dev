@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>D-Day 표시하기</title>
+	<style>
+		body{white-space: pre;}
+	</style>
+    <script>
+        var today = new Date();
+        var birth = new Date("Sept 24, 1994");
+        // Janu Febr Marc Apri May June July Augu Sept Octo Nove Dece
+        var aa = birth.getTime();
+        var bb = today.getTime();
+        var day = Math.ceil((bb-aa)/24/60/60/1000);
+    </script>
+</head>
+<body>
+    <img src="cup.gif" width="377" height="286" style="display: block; margin: 0 auto; border:0;">
+
+    <script>
+        document.write("<p style='text-align: center;'>")
+        document.write("내가 지구상에 태어난지 " + day + "일 지났어요.")
+        document.write("</p>")
+    </script>
+</body>
+</html>

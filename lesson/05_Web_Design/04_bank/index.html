@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>대한은행 사이트</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="js/jquery-1.12.3.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="pop">
+		<div class="popup_content">
+			<div class="popup_inner">
+				<span>다음 항목 중 하나라도 해당한다면? <br/>보이스피싱 사기가 의심됩니다!</span>
+				<p>
+					대출 처리비용 등을 이유로 선입금 요구! <br/>
+					저금리, 정부지원 대출상품이 가능하다며 선입금 요구! <br/>
+					검찰.경찰.금융감독원이라며 안전계좌로 이체요구! <br/>
+					계좌 비밀번호, 인증서 비밀번호 등 개인금융정보 요구! <br/>
+					가족 납치.협박 등을 하며 금전요구! <br/>
+				</p>
+				<button>닫기</button>
+			</div>
+		</div>
+	</div>
+	
+	<header>
+		<div id="header" class="cf">
+			<h1 class="logo"><a href="index.html" tabindex="1"><img src="images/logo.png" alt="대한은행 로고"/></a></h1>
+			<nav class="nav">
+				<ul class="cf">
+					<li><a href="#" tabindex="2">개인</a>
+						<ul class="sub cf">
+							<li><a href="#">조회</a></li>
+							<li><a href="#">이체</a></li>
+							<li><a href="#">예금</a></li>
+							<li><a href="#">대출</a></li>
+						</ul>
+					</li>
+					<li><a href="#" tabindex="3">기업</a>
+						<ul class="sub cf">
+							<li><a href="#">조회</a></li>
+							<li><a href="#">이체</a></li>
+							<li><a href="#">펀드</a></li>
+							<li><a href="#">대출</a></li>
+						</ul>					
+					</li>
+					<li><a href="#" tabindex="4">자산관리</a>
+						<ul class="sub cf">
+							<li><a href="#">나의 자산</a></li>
+							<li><a href="#">은퇴설계</a></li>
+							<li><a href="#">환경설정</a></li>
+						</ul>					
+					</li>
+					<li><a href="#" tabindex="5">카드</a>
+											<ul class="sub cf">
+							<li><a href="#">카드조회</a></li>
+							<li><a href="#">카드신청</a></li>
+							<li><a href="#">건축상담</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- !!!!!a태그 들어간 곳 다 tabindex넣기!!!!! -->	
+	<section id="banner">
+		<h2 class="hidden">이미지 슬라이드</h2>
+		<ul class="cf">
+			<li style="left: 0; opacity: 1;"><a href="#"><img src="images/main01.jpg" alt="슬라이드1"/></a></li>
+			<li><a href="#"><img src="images/main02.jpg" alt="슬라이드2"/></a></li>
+			<li><a href="#"><img src="images/main03.jpg" alt="슬라이드3"/></a></li>
+		</ul>
+	</section>
+	
+	<section id="contents" class="cf">
+		<article class="content1 cf">
+			<h3 class="hidden">공지사항/갤러리</h3>
+			<ul class="tab cf">
+				<li class="active tab1"><a href="#" tabindex="6">공지사항</a></li>
+				<li class="tab2"><a href="#" tabindex="7">갤러리</a></li>
+			</ul>
+			<div class="tab_con cf">
+				<div class="board tab_view">
+					<ul>
+						<li class="popup"><a href="#" tabindex="8">(1)흩어진 my 자산 모으기</a><span>2018.08.08</span></li>
+						<li class="popup"><a href="#" tabindex="9">(2)선생님의 든든한 휴가를 부탁해~</a><span>2018.08.09</span></li>
+						<li class="popup"><a href="#" tabindex="10">(3)외화예금~ 대한은행과 함께라면 OK!!</a><span>2018.08.10</span></li>
+						<li class="popup"><a href="#" tabindex="11">(4)대출 딱~ 하면, 쇼핑 &amp; 여행비가 딱!</a><span>2018.08.11</span></li>
+					</ul>
+				</div>
+				<div class="gallery">
+					<ul>
+						<li class="popup"><a href="#" tabindex="12"><img src="images/gallery1.jpg" alt="갤러리1"/></a></li>
+						<li class="popup"><a href="#" tabindex="13"><img src="images/gallery2.jpg" alt="갤러리2"/></a></li>
+						<li class="popup"><a href="#" tabindex="14"><img src="images/gallery3.jpg" alt="갤러리3"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+		<article class="content2">
+			<h3 class="hidden">갤러리</h3>
+			<figure><img src="images/banner01.jpg" width="360" alt="배너"/></figure>
+		</article>
+		<article class="content3">
+			<h3 class="hidden">팝업</h3>
+			<div class="banner_wrap">
+				<div class="banner1"><a href="#" tabindex="15"><img src="images/short01.jpg" alt="예금 바로가기"/></a></div>
+				<div class="banner1"><a href="#" tabindex="16"><img src="images/short02.jpg" alt="펀드 바로가기"/></a></div>
+				<div class="banner1"><a href="#" tabindex="17"><img src="images/short03.jpg" alt="대출 바로가기"/></a></div>
+				<div class="banner1"><a href="#" tabindex="18"><img src="images/short01.jpg" alt="외환 바로가기"/></a></div>
+				<div class="banner1"><a href="#" tabindex="19"><img src="images/short02.jpg" alt="대출 바로가기"/></a></div>
+				<div class="banner1"><a href="#" tabindex="20"><img src="images/short03.jpg" alt="펀드 바로가기"/></a></div>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<div id="footer" class="cf">
+			<div class="footer1">
+				<h3 class="hidden">하단로고</h3>
+				<a href="index.html"><img src="images/logo_f.png" alt="하단 로고"/></a>
+			</div>
+			<div class="footer2">
+				<h3 class="hidden">카피라이트</h3>
+				<div class="footmenu">
+					<ul>
+						<li><a href="#">전자금융거래 기본약관</a></li>
+						<li class="green"><a href="#">개인정보취급방침</a></li>
+						<li><a href="#">인터넷뱅킹이용안내</a></li>
+						<li><a href="#">체크카드이용안내</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer3">
+				<h3 class="hidden">SNS</h3>
+				<address>
+					<strong>본점</strong> : 광주광역시 북구 누문동 59 
+					<strong>도로명 주소</strong> : 광주광역시 북구 금남로 128 
+					<strong>전화</strong> : 062-527-5701-7 
+					<strong>팩스</strong> : 062-527-5708  <br/>
+					<span>copyright(c)2010. daehan mutual saving bank, all rights reserved.</span>
+				</address>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

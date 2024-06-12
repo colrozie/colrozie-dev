@@ -1,0 +1,12 @@
+﻿/* body{background-color: red;} */
+
+body, p{margin: 0; padding: 0;}
+body{background: url(../images/bg_gray.png) no-repeat #cccccc;}
+div{background: url(../images/circle.png) no-repeat; width: 530px; height: 424px; opacity: 0.8; padding-top: 150px; padding-laft: 20px; margin: 0 auto;}
+.textBox{background-color: hsla(0,0%,100%,0.6); padding: 20px; width: 25%; margin: 0 auto; border-radius: 20px;}
+.people{padding-top: 130px; color: rgba(255,255,255, 0.7); font: 3em 'Arial Black', sans-serif;}
+
+/* Hue 색상 각도  */
+/* saturation 채도 % */
+/* lightness 밝기 % */
+/* alpha 투명도 1을 안 넘김 소수점표현 */

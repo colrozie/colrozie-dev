@@ -1,0 +1,4 @@
+﻿/* body{background-color: red;} */
+
+a[target]{color: red; text-decoration: none;}
+a[title]{background-color: #ffff99; font-weight: bold;}

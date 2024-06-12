@@ -1,0 +1,4 @@
+﻿/* body{background-color: red;} */
+
+input:hover{background-color: #ffccbb;}
+input:focus{background-color: #ffffbb; border: 5px solid 555555; color: #ffffff;}

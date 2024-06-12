@@ -1,0 +1,8 @@
+﻿/* body{background-color: red;} */
+
+a:link{text-decoration: none; color: #000000;}
+a:visited{text-decoration: underline; color: #ffcc33;}
+a:hover{background-color: #ccbbff;}
+a:active{background-color: #66dd22; color: #ffff00;}
+
+/* 1링크 2방문했던 3마우스 올렸을 때 4누르는 순간 */

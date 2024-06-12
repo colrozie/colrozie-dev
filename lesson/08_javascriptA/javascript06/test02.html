@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>메소드로 날짜와 시간 표시하기</title>
+	<style>
+		body{white-space: pre;}
+	</style>
+	<script>
+		a=new Date()
+		document.write("오늘은",a.getYear(),"년",a.getMonth()+1,"월",a.getDate(),"일","입니다.")
+	</script>	
+</head>
+<body>
+	getYear() 년도 (1970년 이후의 년도)
+	getFullYear() 년도를 구합니다
+	getMonth() 월을 구합니다
+	getDate() 일을 구합니다
+	getDay() 요일을 구합니다
+	getHours() 시간을 구합니다
+	getMinutes() 분을 구합니다
+	getSeconds() 초를 구합니다
+	getTime() 1970년 1월 1일 이후 시간을 1000분의 1초로 표시
+	getMilliseconds() 100분의 1초로 표시
+</body>
+</html>

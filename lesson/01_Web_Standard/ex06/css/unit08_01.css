@@ -1,0 +1,9 @@
+﻿/* body{background-color: red;} */
+
+*{color: siver; font-size: 12px; margin: 0; padding: 0; font-weight: normal;}
+
+*{margin: 0; padding: 0; border: 0;}
+
+/* 태그들마다 지정 안 해도 한번에 전체 적용이 됨 체크리스트 넣기 */
+/* h1, div, input, img, p{margin: 0; padding: 0; border: 0;} */
+/* #header> h1{margin: 0; padding: 0; border: 0;} */

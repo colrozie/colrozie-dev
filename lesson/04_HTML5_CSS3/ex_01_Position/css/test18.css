@@ -1,0 +1,9 @@
+﻿/* body{background: red;} */
+#header{width: 1000px; height: 400px; margin: 0 auto; background: yellow; position: relative;}
+.box1{background: red; float: left;}
+.box2{background: green; float: left;}
+.box3{background: blue; float: left;}
+
+.pbox{width: 200px; height: 50px;}
+
+/*컨텐츠 width height 메뉴 padding */

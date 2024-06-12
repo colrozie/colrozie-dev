@@ -1,0 +1,1260 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="Notepad++"/>
+	<meta name="Author" content="김은정"/>
+	<meta name="Keywords" content="김은정, eunjeong,다이어리, 김은정 포트폴리오,Portfolio,eunjeong's Diary"/>
+	<meta name="Description" content="김은정의 다이어리 페이지 입니다."/>
+	<title>은정이 diary</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="icon" href="images/favicon-16x16.png">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/script.js"></script>	
+</head>
+<body>
+	<header class="cf">
+		<div id="header_fix">
+			<div id="main_logo">
+				<a href="index.html" tabindex="1" title="*메인페이지*"><h1>🍮Diary World🍮</h1></a>
+			</div>
+			<nav id="main_gnb" class="cf">
+				<form action="#">
+					<input type="text" name="search" id="search" placeholder="&nbsp;'은정'을 검색해주세요!"/>
+					<input type="button" name="searchBtn" id="searchBtn" value="검색"/>
+				</form>
+				<ul>
+					<li><a href="#;" tabindex="2">메인&nbsp;|</a></li>
+					<li><a href="#;" tabindex="3">내 미니홈피</a></li>
+					<li class="h_box"><a href="#;" tabindex="4">주&rarr;&#8594;오&rarr;&#8594;이&nbsp;&nbsp;&nbsp;&nbsp;&#8227;</a></li>
+					<li class="nav_btn"><a href="#;" tabindex="5">내모아보기<img src="images/top_arrow.png" alt="top arrow"/></a></li>
+					<li class="nav_btn"><a href="#;" tabindex="6">바로가기<img src="images/top_arrow.png" alt="top arrow"/></a></li>
+					<li class="nav_btn"><a href="#;" tabindex="7">랜덤</a></li>
+					<li class="nav_btn last"><a href="#;" tabindex="8">로그아웃</a></li>
+				</ul>
+			</nav><!-- id="main_gnb" -->
+		</div><!-- id="header_fix" -->
+	</header>
+	<div id="wrapper">
+		<section id="contents_wrap" class="cf">
+			<h2 class="hidden">컨텐츠 모두</h2>
+			<aside id="aside_left">
+				<div id="aside_profile">
+					<div class="profile_content">
+						<div class="today">TODAY <span class="red">2613</span>&nbsp;|&nbsp;TOTAL 77000</div>
+						<div class="img" title="프로필 이미지"></div>
+						<div class="today_is"><span class="sky">TODAY IS..</span><img src="images/zzz.png" alt="졸린 이모티콘"/>지겨움</div>
+						<p class="info" title="소개말">은정이의 다이어리라고 불러주세요*.*</p>
+						<div class="profile_bot">
+							<ul class="cf">
+								<li class="profile_fir"><a href="#" tabindex="9" title="그 동안의 기록"><span class="orange">&#8227;</span>HISTORY</a></li>
+								<li><a href="#;" tabindex="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/top_arrow2.png" alt="top"/></a></li>
+								<li><a href="#;" tabindex="11"><img src="images/bottom_arrow.png" alt="bottom"/></a></li>
+							</ul>
+							<h2 class="fl">김은정<img src="images/lady.png" alt="성별표시"/></h2><span>1996.08.21</span>
+							<p class="mail">col_1a@naver.com</p>
+							<div class="buttons cf">
+								<div class="active button1">홈주인</div>
+								<div class="button2">나</div>
+							</div>
+							<div class="profile_con">
+								<div class="profile_tab1">
+									<ul class="cf">
+										<li>
+											<select name="search_option" id="search_option">
+												<option value="일촌파도타기">&#9733;일촌 파도타기</option>
+												<option value="일촌평쓰기">&#9733;일촌평 쓰기</option>
+											</select>							
+										</li>
+									</ul>
+								</div>	
+								<div class="profile_tab2">
+									<ul class="cf">
+										<li>
+											<select name="me_option" id="me_option">
+												<option value="일촌파도타기">&#9733;안녕 테스트</option>
+												<option value="일촌평쓰기">&#9733;메롱 테스트</option>
+											</select>							
+										</li>
+									</ul>
+								</div>
+							</div>							
+						</div><!-- class="profile_bot" -->
+					</div><!-- class="profile_content" -->
+				</div><!-- id="aside_profile" -->
+				<div id="aside_my" class="cf">
+					<h3>싸이월드홈</h3>
+					<div id="my_content">
+						<div class="graph">
+							<div class="active">액티브 &nbsp;&nbsp;<img src="images/active.png" alt="액티브"/></div>
+							<div class="famous">페이머스 <img src="images/famous.png" alt="페이머스"/></div>
+							<div class="friendly">프렌들리 <img src="images/friendly.png" alt="프렌들리"/></div>
+						</div>
+						<ul>
+							<li><a href="#;" tabindex="12">스크랩&nbsp;</a></li>
+							<li><a href="#;" tabindex="13">| 즐겨찾기</a></li>
+						</ul>
+						<div class="aside_top_bot">
+							<div class="item">사용중인 아이템 &#8227;</div>
+							<ul>
+								<li><a href="#;" tabindex="14">선물함&nbsp;</a></li>
+								<li><a href="#;" tabindex="15">|&nbsp;소망상자</a></li>
+							</ul>
+						</div>
+						<div>
+							<h3 class="bot_btn"><img src="images/cd.png" alt="CD"/>&nbsp;음악 등록하기</h3>
+							<a href="#;" tabindex="16" class="random">랜덤미니홈피가기</a>
+							<a href="#;" tabindex="17" class="logout">로그아웃</a>
+						</div>					
+					</div><!-- id="my_content" -->
+				</div><!-- id="aside_my" -->
+				<div id="aside_check" class="cf">
+					<h3>체크리스트!</h3>
+					<div class="check_list" title="잊지말아야해욥">
+						<ul>
+							<li><a href="https://unicode-table.com/kr/" target="_blank">&#11088;유니코드 사이트</a></li>
+							<li>벤더 프리픽스</li>
+							<li>@import url()</li>
+							<li>width값 있어야 margin 가운데정렬</li>
+							<li>overflow-y</li>
+							<li>.cf:after{content: ''; display: block; clear: both;}</li>
+							<li>&#10084; .stop().animate();</li>
+							<li>&#10084; data-ajax="false“</li>
+							<li>&#10084; rel="external“</li>
+							<li><a href="https://d2.naver.com/helloworld/8540176" target="_blank">Display: flex 정리</a></li>
+						</ul>				
+					</div>
+					<h3 class="bot_btn">리스트 추가하기</h3>
+				</div>
+				<div id="top_btn">
+					<a href="#" tabindex="18" title="맨 위로 가실래요?"><img src="images/top.png" width="50" height="50" alt="맨 위로"/></a>
+					<a href="#" tabindex="19" title="맨 위로 가실래요?"><p>top</p></a>
+				</div>
+			</aside><!-- id="aside_left" -->
+			<article id="section_right">
+				<div id="right_top" class="cf">
+					<h2 class="fl" title="미니홈피 제목입니다!">&#9829; luv ej's diary</h2>
+					<div class="bgm fl">
+						<a><img src="images/cd.png" alt=""/><span class="sky">BGM &#8227;</span> 프리스타일 - Y...재생 중</a>
+						<a href="#;" tabindex="20" class="bgm_btn" title="음악을 멈추세요!">&sung;</a>
+						<a href="#;" tabindex="21" class="bgm_btn" title="음악을 재생하세요!">&#8227;</a>
+						<a href="#;" tabindex="22" class="bgm_btn" title="노래목록을 만나보세요!">LIST</a>
+					</div>
+				</div>
+				<div id="right_middle" class="cf">
+					<div class="miniroom fl cb" title="멋진 내 방을 꾸며보세요!">
+						<h3><span class="sky">Mini Room</span>&nbsp;EXPRESS YOURSELF</h3>
+						<div class="room"></div>					
+					</div>
+					<div class="news fl cf" title="새로운 소식 게시판입니다!">
+						<h3><span class="sky">Update news</span>&nbsp;TODAY STORY</h3>
+						<div class="up_news fl cf">
+							<ul class="news1 fl">
+								<li>&#8729; [오윤석T] 코딩은 즐거워~[0]&nbsp;&nbsp;&nbsp;&nbsp;<span class="movie">동영상</span></li>
+								<li>&#8729; [이소혜] 다들 오세요 제발요[10]<span class="board">게시판</span></li>
+								<li>&#8729; [유정은] 타자연습 하러...[1]&nbsp;&nbsp;&nbsp;<span class="new">new</span></li>
+								<li>&#8729; [노용훈] 바빠요ㅠ[0]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="gall">갤러리</span></li>
+							</ul>
+							<ul class="news2 fl">
+								<li>&#8729; [김은정] 배고파요...![4]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="paper">페이퍼</span></li>
+								<li>&#8729; [김지우] 안녕 은정이[1]</li>
+								<li>&#8729; [이소혜] 디자인 안 해[5]</li>
+								<li>&#8729; [유정은] 타자연습 하러갈게요...[1]</li>
+							</ul>
+						</div> <!-- class="up_news" -->	
+					</div><!-- class="news" -->
+					<div class="board_title fl cf">
+						<div><span data-tooltip="배우는 중인 공간입니다!">즐거운 코딩세상에 오신 걸 환영해요</span></div>
+					</div>
+					<div class="say fl cf" title="일촌평을 남겨보세요!">
+						<h3><span class="sky">What friends say</span>&nbsp;한마디로 표현해봐~</h3>
+						<p>안녕안녕 놀러와서 글 남기기 퍼가요~(<span class="sky">B.F</span>욤요미)</p>					
+					</div>
+				</div>
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex01</li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/page1-ex-link.html" target="_blank">링크 연결 방식</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test01.html" target="_blank">페이지 이동관련 효과</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test02.html" target="_blank">모바일 사용가능 링크(이메일/전화/문자)</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test03.html" target="_blank">header 이동버튼 삽입</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test04.html" target="_blank">header back버튼 삽입</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test05.html" target="_blank">header back버튼 이름 변경</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test06.html" target="_blank">header 상위버전/낮은버전</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test07.html" target="_blank">header class사용한 버튼 위치</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test08.html" target="_blank">header class사용한 버튼 위치</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test09.html" target="_blank">footer bar 버튼 생성</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test10.html" target="_blank">footer bar 버튼 그룹 생성</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test11.html" target="_blank">총정리 페이지 이동이 일어나야 백버튼이 생김(히스토리에 저장)</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test12.html" target="_blank">네비게이션 바</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test13.html" target="_blank">전체화면모드</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test14.html" target="_blank">footer 네비게이션 active</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex01/test15.html" target="_blank">header 네비게이션 footer icon</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex02</li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test21.html" target="_blank">버튼태그 종류</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test22.html" target="_blank">a 버튼태그 종류</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test23.html" target="_blank">버튼 타입 종류</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test24.html" target="_blank">버튼 아이콘 총정리</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test25.html" target="_blank">버튼 아이콘 설정 사용자 정의 attr</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test26.html" target="_blank">상하좌우 아이콘 설정</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test27.html" target="_blank">사용자정의 아이콘1</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test28.html" target="_blank">사용자정의 아이콘2</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test29.html" target="_blank">컨트롤 그룹 가로세로</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test30.html" target="_blank">태그 테마 변경</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test31.html" target="_blank">리스트 설정</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test32.html" target="_blank">리스트 + a태그</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test33.html" target="_blank">ol 리스트 테마변경</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test34.html" target="_blank">리스트 inset</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test35.html" target="_blank">리스트 a태그 부분 하이퍼링크</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test36.html" target="_blank">부분 하이퍼링크 아이콘 바꾸기</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test37.html" target="_blank">리스트 a태그 text넣기</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test38.html" target="_blank">list-divider 구분자</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test39.html" target="_blank">list-divider 구분자 테마변경</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test40.html" target="_blank">리스트 이미지 삽입</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test41.html" target="_blank">리스트 이미지/텍스트</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test42.html" target="_blank">리스트 텍스트 설정</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test43.html" target="_blank">list-divider 구분자 검색필터</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test44.html" target="_blank">리스트 종합본</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test45.html" target="_blank">탭메뉴</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test46.html" target="_blank">테이블 설정</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test47.html" target="_blank">columntoggle</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test48.html" target="_blank">패널 종류</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test49.html" target="_blank">다이얼로그 페이지</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test50.html" target="_blank">다이얼로그 페이지2</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test51.html" target="_blank">리스트 테마 섞어쓰기</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test52.html" target="_blank">ui-body, ui-bar</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test53.html" target="_blank">그리드 설정 블럭 개수</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test54.html" target="_blank">그리드 설정 블럭 개수(2)</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test55.html" target="_blank">행열 그리드</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test56.html" target="_blank">아코디언 패널</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test57.html" target="_blank">아코디언 패널 중첩</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test58.html" target="_blank">아코디언 패널 그룹</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test59.html" target="_blank">일반적인 form</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test60.html" target="_blank">모바일 form</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test61.html" target="_blank">fieldcontain</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test62.html" target="_blank">textarea</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test63.html" target="_blank">range</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test64.html" target="_blank">toggle</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test65.html" target="_blank">라디오 버튼</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test66.html" target="_blank">체크 박스</a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test67.html" target="_blank">optgroup </a></li>
+								<li><a href="lesson/16_Mobile_jQuery/ex02/test68.html" target="_blank">data-native-menu 모바일 셀렉트</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">project01_tourApp</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">project02_bookApp</li>
+								<li><a href="http://private.dothome.co.kr/test/ex04/01_load.html" target="_blank"></a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">project03_dokdoApp</li>
+								<li><a href="lesson/16_Mobile_jQuery/project/project03_dokdoApp/index.html" target="_blank"></a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">project04_cameraApp</li>
+								<li><a href="lesson/16_Mobile_jQuery/ex06_img_gallery/gallery.html" target="_blank"></a></li>
+							</ul>				
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">project04_deviceApp</li>
+								<li><a href="lesson/16_Mobile_jQuery/ex07_project_lg/index.html" target="_blank"></a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">project05_contactApp</li>
+								<li><a href="lesson/16_Mobile_jQuery/ex08_project_barrer/index.html" target="_blank"></a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">project05_mapApp</li>
+								<li><a href="lesson/16_Mobile_jQuery/ex09_project_mask/index.html" target="_blank"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">project06_polarnoteApp</li>
+								<li><a href="lesson/16_Mobile_jQuery/weacher_API/index.html" target="_blank"></a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit"></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit"></li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- id="right_bot9" -->	
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">basic</li>
+								<li><a href="lesson/01_Web_Standard/ex01/html5_sample.html" target="_blank">사각형 드로잉</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex01</li>
+								<li><a href="lesson/01_Web_Standard/basic/ex01_images_src/index.html" target="_blank">이미지 태그</a></li>
+								<li><a href="lesson/01_Web_Standard/basic/ex02_semantic/test01.html" target="_blank">와이어 프레임</a></li>
+								<li><a href="lesson/01_Web_Standard/basic/ex03_table/table03.html" target="_blank">이력서 문제</a></li>
+								<li><a href="lesson/01_Web_Standard/basic/ex04_grid/test07.html" target="_blank">그리드 문제</a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex02</li>						
+								<li><a href="lesson/01_Web_Standard/ex02/unit02_01.html" target="_blank">헤딩h 문단 나누기p 줄바꿈br</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/unit02_02.html" target="_blank">Entity 코드 공백 특수기호</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/unit03_01.html" target="_blank">abbr, address, strong, sub, sup, blockquote</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/unit03_02.html" target="_blank">mark, meter, time, ruby, rt</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/unit04_01.html" target="_blank">목록 ul, ol, li</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/unit04_02.html" target="_blank">정의 목록 dl정의 리스트, dt정의 타이틀, dd설명</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/semantic.html" target="_blank">fl cl, 앞으로 뜨는 것 부유 clear</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/test01.html" target="_blank">ex02_종합문제1</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/test02.html" target="_blank">ex02_종합문제2</a></li>
+							</ul>						
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex03</li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit01_01.html" target="_blank">img 이미지 삽입, hr 수평선</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit01_02.html" target="_blank">img 캡션_figure 그 이미지에 대한 자막, figcaption 정보보다 이미지가 중요한 때</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit02_01.html" target="_blank">audio,source,controls 사운드 삽입</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit02_02.html" target="_blank">video,source,type 동영상 삽입</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit03_01.html" target="_blank">ａ태그 하이퍼링크 삽입(링크/이미지/가로세로/대체글)</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit03_02.html" target="_blank">네임앵커 바로가기 id 지정</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit03_03.html" target="_blank">이미지맵-usemap 좌표 x,y축</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit04_01.html" target="_blank">인라인 프레임-iframe 다른 html을 지정된 크기로 삽입가능</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/unit04_02.html" target="_blank">nav삽입 인라인 프레임에서 하이퍼링크 삽입</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/total1.html" target="_blank">ex03_종합문제1</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/total2.html" target="_blank">ex03_종합문제2</a></li>
+								<li><a href="lesson/01_Web_Standard/ex03/table05.html" target="_blank">table문제완성 col그룹 col,row스판 th tbody tfoot(자동으로 끝으로감)</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex04</li>
+								<li><a href="lesson/01_Web_Standard/ex04/total3.html" target="_blank">table문제 로즈마리</a></li>
+								<li><a href="lesson/01_Web_Standard/ex04/unit03_01.html" target="_blank">form태그 input type활용</a></li>
+								<li><a href="lesson/01_Web_Standard/ex04/unit03_02.html" target="_blank">get방식 post방식 라벨활용 2가지방법 라디오 버튼</a></li>
+								<li><a href="lesson/01_Web_Standard/ex04/unit03_03.html" target="_blank">get방식(주소로 정보전달 단점이 많음) 체크박스</a></li>
+								<li><a href="lesson/01_Web_Standard/ex04/unit04_01.html" target="_blank">필드셋 레전드는 세트</a></li>
+								<li><a href="lesson/01_Web_Standard/ex04/unit04_02.html" target="_blank">셀렉트 옵션 텍스트 에리아</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex05</li>
+								<li><a href="lesson/01_Web_Standard/ex05/unit01_01.html" target="_blank">블록요소에 인라인 방식으로 css적용하기 링크로 스타일 적용하는 게 웹표준</a></li>
+								<li><a href="lesson/01_Web_Standard/ex05/unit01_02.html" target="_blank">특정 글자 꾸미기 div는 큰 볼록 span은 작은 볼록</a></li>
+								<li><a href="lesson/01_Web_Standard/ex05/unit02_01.html" target="_blank">문서 전체의 배경 색상, 글자 색상 적용하기</a></li>
+								<li><a href="lesson/01_Web_Standard/ex05/unit02_02.html" target="_blank">문단에 css 적용하기</a></li>
+								<li><a href="lesson/01_Web_Standard/ex05/unit02_03.html" target="_blank">문단에 css 적용하기02</a></li>
+								<li><a href="lesson/01_Web_Standard/ex05/unit04_01.html" target="_blank">둥근 모서리 만들기 px값 왼쪽 위부터 시계방향</a></li>
+								<li><a href="lesson/01_Web_Standard/ex02/semantic.html" target="_blank">script로 js하위모드 호환</a></li>
+								<li><a href="lesson/01_Web_Standard/ex05/unit04_02.html" target="_blank">박스 그림자 효과 프리픽스</a></li>
+								<li><a href="lesson/01_Web_Standard/ex05/total1.html" target="_blank">스타일 컬러 지정</a></li>
+								<li><a href="lesson/01_Web_Standard/ex05/total2.html" target="_blank">태그선택자 css지정</a></li>
+							</ul>						
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex06</li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit01_01.html" target="_blank">태그선택자</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit01_02.html" target="_blank">li 태그선택자</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit02_01.html" target="_blank">클래스 선택자</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit02_02.html" target="_blank">도트밑줄</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit03_01.html" target="_blank">아이디 선택자 사용</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit03_02.html" target="_blank">아이디 선택자 사용(분리하여 적용)</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit04_01.html" target="_blank">a태그 선택자 정의 a[~~]</a></li>						<li><a href="lesson/01_Web_Standard/ex06/unit04_02.html" target="_blank">^ 시작되는 $ 끝나는 *포함되는</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit05_01.html" target="_blank">자식 선택자 정의 >: 바로 하위레벨 띄어쓰기: 밑부터 포함되면 다 구체적으로 적은 게 나타남</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit05_02.html" target="_blank">인접 형제 선택자 +는 기준으로부터 바로 하위에 있어야 함 ~는 기준으로부터 밑에 포함된 건 다 가능</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit06_01.html" target="_blank">가상 클래스 선택자 link visited hover active</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit06_02.html" target="_blank">동적 가상 클래스 선택자 로그인창(input)효과 적용</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit07_01.html" target="_blank">li꾸미기 first-child, even, odd, ?n+?, last-child</a></li>						
+								<li><a href="lesson/01_Web_Standard/ex06/unit07_02.html" target="_blank">순서랑 관련있는 가상선택자 first-letter, first-line</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit07_03.html" target="_blank">내용 추가와 관련있는 가상 선택자 before, after</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit08_01.html" target="_blank">전체 선택자 *태그마다 지정 안 해도 됨</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit08_02.html" target="_blank">그룹 선택자 여러 선택자에 같은 속성 적용</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit09_01.html" target="_blank">하위 자식 선택자</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit09_02.html" target="_blank">하위 자손 선택자 id로 지정된 li요소의 a요소</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit10_01.html" target="_blank">속성값의 상속관계 코딩 순서 문법 확인</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/unit10_02.html" target="_blank">선택자간의 우선 순위 알아보기 important 쓰지마</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/total1.html" target="_blank">연습문제 선택자와 요소 디자인 a태그선택자 아이디 선택자</a></li>
+								<li><a href="lesson/01_Web_Standard/ex06/total2.html" target="_blank">연습문제2 선택자와 요소 디자인 a태그선택자 아이디 선택자</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex07</li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit01_01.html" target="_blank">글자 속성 font-variant, style</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit01_02.html" target="_blank">문단 속성 word or letter-spacing, indent, transform</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit01_03.html" target="_blank">방향 공백 처리 white-space: nowrap;, pre;</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit02_01.html" target="_blank">문단에 이미지, 위치, 스타일 제어 list-style: url()</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit02_02.html" target="_blank">인용부호 특정 문자열 콘텐츠 생성 counter-increment content quotes</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit03_01.html" target="_blank">요소의 크기 지정 및 여백 text-align</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit03_02.html" target="_blank">테두리 표시</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit03_03.html" target="_blank">둥근 테두리 만들기 radius</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit03_04.html" target="_blank">아웃라인 dashed double</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit04_01.html" target="_blank">요소의 배경처리 아주 중요*background-attachment, position, repeat, url로 적용</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit05_01.html" target="_blank">이미지, 색상, 글자 투명도 hsla(0,0%,100%,0.6) rgba(255,255,255, 0.7)</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit05_02.html" target="_blank">Box Shadow 5px 5px 40px #666;</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/unit06_01.html" target="_blank">테이블 속성 렌터카 요금표 border-collapse: collapse, separate</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/total1.html" target="_blank">FAQ 연습문제</a></li>
+								<li><a href="lesson/01_Web_Standard/ex07/total2.html" target="_blank">FAQ 연습문제2 content 기억하기</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex08</li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit01_01.html" target="_blank">이미지 요소 옆에 문단 흐르게 만들기</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit01_02.html" target="_blank">float: left; clear: left; fl해제하기 둘 다 유지</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit02_01.html" target="_blank">절대 좌표 방식 position: absolute 기준점 브라우저</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit02_02.html" target="_blank">상대 좌표 방식 position: relative; 자기자신이 기준</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit02_03.html" target="_blank">고정 좌표 방식 position: fixed; 메뉴에 사용</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit03_01.html" target="_blank">이미지 세로 배치 display: block;</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit03_02.html" target="_blank">목록 가로 배치 display: inline;</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit03_03.html" target="_blank">제목 텍스트 대신 이미지 배치 display: none;</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit03_04.html" target="_blank">문단을 테이블 형식으로 배치 display: table; 태그랑 다른 거임</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit04_01.html" target="_blank">다단에 구분선 중간 정렬 선택자 따라 다름</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit04_02.html" target="_blank">목록 역순으로 배치하고 가로 세로 중앙 정렬 box속성</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit04_03.html" target="_blank">box-flex 속성으로 비율로 크기 조정</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit05_01.html" target="_blank">transform</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/unit05_02.html" target="_blank">transition 속성으로 애니메이션</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/power_before.html" target="_blank">overflow, clip(좌표 y,x)</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/total1.html" target="_blank">연습 문제</a></li>
+								<li><a href="lesson/01_Web_Standard/ex08/total2.html" target="_blank">연습 문제2</a></li>
+							</ul>						
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex09</li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit01_01.html" target="_blank">그라데이션 상자와 회원 가입 버튼 gradient안 외워도 됨</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit01_02.html" target="_blank">그라데이션 메뉴 바</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit02_01.html" target="_blank">투명도로 롤오버 이미지 중요!</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit02_02.html" target="_blank">애니메이션되는 롤오버</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit03_01.html" target="_blank">탭 구조를 이용한 이미지에 탭메뉴 만들기</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit04_01.html" target="_blank">이미지 배치 후 롤오버시 블러 효과 서점 디자인(벽난로 같은 장식)</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit04_02.html" target="_blank">이미지 위에 스티커 hit!</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit05_01.html" target="_blank">로그인 폼 문서</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit05_02.html" target="_blank">주문 폼 문서</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit06_01.html" target="_blank">세로바가 있는 테이블 헤더 당첨자 게시판</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit06_02.html" target="_blank">롤오버시 색이 변경되는 테이블</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit07_01.html" target="_blank">해상도마다 다르게 이미지 변경</a></li>
+								<li><a href="lesson/01_Web_Standard/ex09/unit07_02.html" target="_blank">인쇄용 디자인 별도로 만들기</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl"></div>
+						<div class="box1_1 fl"></div>
+					</div>
+				</div> <!-- id="right_bot" -->
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_00_Notice</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_00_Notice/border_tip1.html" target="_blank">border_tip1 말풍선 화살표</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_00_Notice/border_tip2.html" target="_blank">border_tip2 말풍선 화살표2</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_00_Notice/line_height.html" target="_blank">line_height 중앙정렬</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_00_Notice/ellipsis.html" target="_blank">ellipsis</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_00_Notice/background_size/index.html" target="_blank">background_size 속성</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_01_Display</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/display_속성.html" target="_blank">Display 속성</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test01.html" target="_blank">속성1</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test02.html" target="_blank">속성2</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test03.html" target="_blank">속성3</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test04.html" target="_blank">속성4 한 줄로 붙는 거 확인</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test05.html" target="_blank">width, height 값 의미X = inline은 컨텐츠 크기</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test06.html" target="_blank">relative float 차이점 1.z-index 2.r는 자기자리를 남김 3.float은 컨텐츠 크기</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test07.html" target="_blank">inline-block: 쓰면 옆으로 나란히 = float: left; 낮은 버전 호환X 그냥 inline, block만</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test08.html" target="_blank">box{visibility: hidden;}=투명인간 안 보이지만 자리차지</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test09.html" target="_blank">#box{opacity: 0.3;}=낮은버전X 메뉴에 많이 씀</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test10.html" target="_blank">margin 통합현상 margin bottom통일</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Display/test11.html" target="_blank">box-sizing=firefox만 적용</a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_01_Position</li>						
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/position_속성.html" target="_blank">position 속성</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test01.html" target="_blank">absolute</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test02.html" target="_blank">absolute 기준에서 좌표지정</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test03.html" target="_blank">relative absolute</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test04.html" target="_blank">div가 부모일 때 따라다닌다</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test05.html" target="_blank">absolute relative overflow-y: scroll;</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test06.html" target="_blank">visibility랑 비슷 자기 자리를 유지한 채 비워짐</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test07.html" target="_blank">속성7</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test08.html" target="_blank">display: none;</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test09.html" target="_blank">visibility: hidden;</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test10.html" target="_blank">absolute;</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test11.html" target="_blank">relative;</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test12.html" target="_blank">속성12</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test13.html" target="_blank">float: left;</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test14.html" target="_blank">float: right;</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test15.html" target="_blank">cr cl cb 자기자신을 정렬 해제하는 것 cr이 안 먹히는 이유</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test16.html" target="_blank">width height 없을 시 컨텐츠 크기만큼 표시</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test17.html" target="_blank">속성17</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_01_Position/test18.html" target="_blank">컨텐츠 width height 메뉴 padding</a></li>
+							</ul>						
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_02_Clear_Fix</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_02_Clear_Fix/test01.html" target="_blank">부모/자식(float)되면 부모가 자식을 감싸지 못 하는 결과</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_02_Clear_Fix/test02.html" target="_blank">.cf:after{content: ''; display: block; clear: both;}</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_02_Clear_Fix/test03.html" target="_blank">float에 float으로 대응 부모에 사이즈값X시 자식값 따라감</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_02_Clear_Fix/test04.html" target="_blank">float에 overflow로 대응 문제 있음</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_02_Clear_Fix/test05.html" target="_blank">float에 overflow로 대응(무식)</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_03_Div_Board</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_03_Div_Board/board2.html" target="_blank">게시판 첫코딩</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_03_Div_Board/board.html" target="_blank">아큐브 게시판</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_03_Div_Board/board3.html" target="_blank">*누르면 나오는 게시판 양식*IE8 낮은 버전 조건부 주석</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_04_Menu_Border</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_04_Menu_Border/row_menu.html" target="_blank">row_menu</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_04_Menu_Border/col_menu.html" target="_blank">col_menu</a></li>
+							</ul>						
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_05_Check_Box</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_05_Check_Box/index.html" target="_blank">checkBox와 스르륵효과</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_06_Relative_Test</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_06_Relative_Test/test01.html" target="_blank">메뉴와 헤더  만들기</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_06_Relative_Test/test02.html" target="_blank">플로우 메뉴</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_06_Relative_Test/test03.html" target="_blank">옛날 메뉴 형식</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_06_Relative_Test/7_kurly.html" target="_blank">마켓컬리 메뉴 100%아님</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_07_Gnb_Menu</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_07_Gnb_Menu/index1.html" target="_blank">병원소개 스프라이트 이미지2</a></li>
+							</ul>						
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_07_Mouse_Over</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_07_Mouse_Over/mouse_over.html" target="_blank">마우스오버 버튼 스프라이트 이미지</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_08_Tab_Menu</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_08_Tab_Menu/index1.html" target="_blank">탭메뉴</a></li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_08_Tab_Menu/index2.html" target="_blank">탭메뉴(jQuery)</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex_09_Movie</li>
+								<li><a href="lesson/04_HTML5_CSS3/ex_09_Movie/" target="_blank">준비중 입니다~</a></li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- id="right_bot2" -->
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">기본 Study</li>
+								<li><a href="lesson/css_practice/slide_all.html" target="_blank">제이쿼리 이미지 슬라이드 5가지</a></li>
+								<li><a href="green_art/index01.html" target="_blank">상대경로/절대경로</a></li>
+								<li><a href="green_art/index02.html" target="_blank">id/class 차이점</a></li>
+								<li><a href="green_art/index03.html" target="_blank">미디어 쿼리</a></li>
+								<li><a href="green_art/index04.html" target="_blank">display / visibility / opacity</a></li>
+								<li><a href="green_art/index05.html" target="_blank">제이쿼리 CDN 링크</a></li>
+								<li><a href="green_art/index06.html" target="_blank">이벤트 메소드</a></li>
+								<li><a href="green_art/index07.html" target="_blank">append(), appendTo()</a></li>
+								<li><a href="green_art/index08.html" target="_blank">제이쿼리 DOM</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">BootStrap</li>
+								<li><a href="lesson/17_Bstrap_Student/test01/index.html" target="_blank">BootStrap 정리</a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">연습 페이지</li>	
+								<li><a href="lesson/17_Bstrap_Student/test01/index.html" target="_blank">BootStrap 정리</a></li>					
+							</ul>						
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">미디어 쿼리</li>
+								<li><a href="lesson/14_Snow_Bing/test01.html" target="_blank">반응형 레이아웃1</a></li>
+								<li><a href="lesson/14_Snow_Bing/test02.html" target="_blank">반응형 레이아웃2</a></li>
+								<li><a href="lesson/14_Snow_Bing/test03.html" target="_blank">반응형 레이아웃3</a></li>
+								<li><a href="lesson/14_Snow_Bing/test04.html" target="_blank">반응형 레이아웃4</a></li>
+								<li><a href="lesson/14_Snow_Bing/test05.html" target="_blank">반응형 레이아웃5</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>					
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>					
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>
+						</div>
+					</div>
+				</div><!-- id="right_bot3" -->				
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">01_layout</li>
+								<li><a href="lesson/05_Web_Design/01_layout/01_row_menu/index.html" target="_blank">row_레이아웃</a></li>
+								<li><a href="lesson/05_Web_Design/01_layout/01_row_menu/index1.html" target="_blank">row_1depth만</a></li>
+								<li><a href="lesson/05_Web_Design/01_layout/01_row_menu/index2.html" target="_blank">row_전체</a></li>
+								<li><a href="lesson/05_Web_Design/01_layout/01_row_menu/index3.html" target="_blank">row_전체+배경</a></li>
+								<li><a href="lesson/05_Web_Design/01_layout/02_col_menu/index.html" target="_blank">col_레이아웃</a></li>
+								<li><a href="lesson/05_Web_Design/01_layout/02_col_menu/index1.html" target="_blank">col_메뉴어사이드</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">02_jQuery_selector</li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/01_아이디로_엘리먼트찾기.html" target="_blank">아이디로 요소찾기</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/02_클래스로_엘리먼트찾기.html" target="_blank">클래스로 요소찾기</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/03_자식_엘리먼트찾기.html" target="_blank">자식 요소 찾기</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/04_형제_엘리먼트찾기.html" target="_blank">형제 요소 찾기</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/05_속성으로_엘리먼트찾기.html" target="_blank">속성으로 요소 찾기</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/06_first_필터셀렉터.html" target="_blank">first 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/07_last_필터셀렉터.html" target="_blank">last 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/08_even_필터셀렉터.html" target="_blank">even 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/09_odd_필터셀렉터.html" target="_blank">odd 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/10_eq_필터셀렉터.html" target="_blank">eq 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/11_gt_필터셀렉터.html" target="_blank">gt 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/12_lt_필터셀렉터.html" target="_blank">lt 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/13_has_필터셀렉터.html" target="_blank">has 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_1/14_not_필터셀렉터.html" target="_blank">not 필터셀렉터</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/01_size_메소드.html" target="_blank">size 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/02_eq_메소드.html" target="_blank">eq 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/03_first_and_last_메소드.html" target="_blank">first and last 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/04_index_메소드.html" target="_blank">index 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/05_not_메소드.html" target="_blank">not 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/06_filter_메소드.html" target="_blank">filter 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/07_slice_메소드.html" target="_blank">slice 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/08_has_메소드.html" target="_blank">has 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_2/09_each_메소드.html" target="_blank">each 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/01_children_메소드.html" target="_blank">children 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/02_next_메소드.html" target="_blank">next 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/03_nextAll_메소드.html" target="_blank">nextAll 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/04_nextUntil_메소드.html" target="_blank">nextUntil 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/05_parent_메소드.html" target="_blank">parent 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/06_parents_메소드.html" target="_blank">parents 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/07_parentsUntil_메소드.html" target="_blank">parentsUntil 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/08_find_메소드.html" target="_blank">find 메소드</a></li>
+								<li><a href="lesson/05_Web_Design/02_jQuery_selector/ex00_3/09_is_메소드.html" target="_blank">is 메소드</a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">03_shopping</li>					
+								<li><a href="lesson/05_Web_Design/03_shopping/index.html" target="_blank">just 쇼핑몰 메뉴 제이쿼리</a></li>
+								<li><a href="lesson/05_Web_Design/03_shopping/index1.html" target="_blank">just 쇼핑몰 슬라이드 배너</a></li>
+							</ul>						
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">04_bank</li>
+								<li><a href="lesson/05_Web_Design/04_bank/index.html" target="_blank">대한은행 기본형</a></li>
+								<li><a href="lesson/05_Web_Design/04_bank/index2.html" target="_blank">대한은행 와이어프레임</a></li>
+							</ul>								
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">05_foundation</li>
+								<li><a href="lesson/05_Web_Design/05_foundation/layout.html" target="_blank">그린복지 와이어_me</a></li>
+								<li><a href="lesson/05_Web_Design/05_foundation/index.html" target="_blank">그린복지 사이트_me</a></li>
+								<li><a href="lesson/05_Web_Design/05_foundation/05_foundation/layout.html" target="_blank">그린복지 사이트_T</a></li>
+								<li><a href="lesson/05_Web_Design/05_foundation/05_foundation/index.html" target="_blank">그린복지 사이트_T</a></li>
+							</ul>							
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">06_school</li>
+								<li><a href="lesson/05_Web_Design/06_school/layout.html" target="_blank">대한천문대 와이어프레임_me</a></li>						
+								<li><a href="lesson/05_Web_Design/06_school/index.html" target="_blank">대한천문대 완성_me</a></li>						
+								<li><a href="lesson/05_Web_Design/06_school/06_school/layout.html" target="_blank">대한천문대 완성_T</a></li>						
+							</ul>								
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">07_coffee</li>
+								<li><a href="lesson/05_Web_Design/07_coffee/layout.html" target="_blank">스타카페 와이어프레임_me</a></li>									
+								<li><a href="lesson/05_Web_Design/07_coffee/index.html" target="_blank">스타카페 완성_me</a></li>									
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">08_festival</li>
+								<li><a href="lesson/05_Web_Design/08_festival/index.html" target="_blank">일루미아 완성_me</a></li>									
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>
+						</div>
+					</div>
+				</div><!-- id="right_bot4" -->	
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">06_project01a</li>
+								<li><a href="lesson/06_project01a/layout.html" target="_blank">커뮤니티 사이트 레이아웃</a></li>
+								<li><a href="lesson/06_project01a/index.html" target="_blank">커뮤니티 사이트 완성</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">07_project01b</li>
+								<li><a href="lesson/07_project01b/layout.html" target="_blank">DY 클럽 사이트 레이아웃</a></li>
+								<li><a href="lesson/07_project01b/index.html" target="_blank">DY 클럽 사이트 완성</a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>											
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>									
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>					
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>					
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>						
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>
+						</div>
+					</div>
+				</div><!-- id="right_bot5" -->
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript01</li>
+								<li><a href="lesson/08_javascriptA/javascript01/javascript01.html" target="_blank">JavaScript 스크립트 구조와 변수</a></li>								
+								<li><a href="lesson/08_javascriptA/javascript01/test01.html" target="_blank">스크립트 구조와 변수 / 조건부 주석</a></li>								
+								<li><a href="lesson/08_javascriptA/javascript01/test02.html" target="_blank">큰 따옴표와 작은 따옴표를 섞어 쓰는 이유</a></li>								
+								<li><a href="lesson/08_javascriptA/javascript01/test03.html" target="_blank">문자변수와 숫자변수 var은 지역변수임</a></li>								
+								<li><a href="lesson/08_javascriptA/javascript01/test04.html" target="_blank">10진수로 숫자변수 나타내기</a></li>								
+								<li><a href="lesson/08_javascriptA/javascript01/test05.html" target="_blank">문자변수 나타내기</a></li>								
+								<li><a href="lesson/08_javascriptA/javascript01/test06.html" target="_blank">참, 거짓 변수</a></li>								
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript02</li>	
+								<li><a href="lesson/08_javascriptA/javascript02/javascript02.html" target="_blank">JavaScript 연산자와 조건문</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test01.html" target="_blank">산술연산자</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test02.html" target="_blank">대입연산자</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test03.html" target="_blank">증감연산자</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test04.html" target="_blank">관계연산자</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test05.html" target="_blank">논리연산자</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test06.html" target="_blank">조건연산자</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test07.html" target="_blank">연산자우선순위</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test08.html" target="_blank">조건문1</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test09.html" target="_blank">조건문2</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test10.html" target="_blank">조건문3</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/test11.html" target="_blank">조건문4</a></li>
+								<li><a href="lesson/08_javascriptA/javascript02/homework/test.html" target="_blank">생활계획표 if문</a></li>						
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript03</li>	
+								<li><a href="lesson/08_javascriptA/javascript03/javascript03.html" target="_blank">JavaScript 반복문</a></li>
+								<li><a href="lesson/08_javascriptA/javascript03/test01.html" target="_blank">FOR문</a></li>
+								<li><a href="lesson/08_javascriptA/javascript03/test02.html" target="_blank">WHILE문</a></li>
+								<li><a href="lesson/08_javascriptA/javascript03/test03.html" target="_blank">DO WHILE문</a></li>
+								<li><a href="lesson/08_javascriptA/javascript03/test04.html" target="_blank">CONTINUE문</a></li>
+								<li><a href="lesson/08_javascriptA/javascript03/test05.html" target="_blank">문제</a></li>					
+							</ul>	
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript04</li>	
+								<li><a href="lesson/08_javascriptA/javascript04/javascript04.html" target="_blank">JavaScript 함수 정의하기</a></li>
+								<li><a href="lesson/08_javascriptA/javascript04/test01.html" target="_blank">함수정의하고 사용하기</a></li>
+								<li><a href="lesson/08_javascriptA/javascript04/test02.html" target="_blank">함수의 매개변수 정의와 사용</a></li>
+								<li><a href="lesson/08_javascriptA/javascript04/test03.html" target="_blank">함수에서 변수 사용할 때 주의</a></li>
+								<li><a href="lesson/08_javascriptA/javascript04/test04.html" target="_blank">내장함수</a></li>
+								<li><a href="lesson/08_javascriptA/javascript04/test05.html" target="_blank">퀴즈문제</a></li>
+								<li><a href="lesson/08_javascriptA/javascript04/test06.html" target="_blank">confirm()</a></li>
+								<li><a href="lesson/08_javascriptA/javascript04/test07.html" target="_blank">prompt()</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript05</li>
+								<li><a href="lesson/08_javascriptA/javascript05/javascript05.html" target="_blank">JavaScript 산술연산자 함수와 이벤트 핸들러</a></li>
+								<li><a href="lesson/08_javascriptA/javascript05/test01.html" target="_blank">산술연산자</a></li>
+								<li><a href="lesson/08_javascriptA/javascript05/test02.html" target="_blank">계산기 만들기</a></li>
+								<li><a href="lesson/08_javascriptA/javascript05/test03.html" target="_blank">isNaN()</a></li>
+								<li><a href="lesson/08_javascriptA/javascript05/test04.html" target="_blank">숫자를 입력하면 다음 페이지로 이동하게 만들기</a></li>
+								<li><a href="lesson/08_javascriptA/javascript05/test05.html" target="_blank">함수의 재규적 호출</a></li>
+								<li><a href="lesson/08_javascriptA/javascript05/test06.html" target="_blank">이벤트 핸들러</a></li>
+								<li><a href="lesson/08_javascriptA/javascript05/test07.html" target="_blank">퀴즈 만들기 (onclick)</a></li>
+								<li><a href="lesson/08_javascriptA/javascript05/test08.html" target="_blank">롤오버(onMouseOver/onMouseOut)</a></li>					
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript06</li>	
+								<li><a href="lesson/08_javascriptA/javascript06/javascript06.html" target="_blank">JavaScript 객체 사용</a></li>
+								<li><a href="lesson/08_javascriptA/javascript06/test01.html" target="_blank">내장 객체</a></li>
+								<li><a href="lesson/08_javascriptA/javascript06/test02.html" target="_blank">메소드로 날짜와 시간 표시</a></li>
+								<li><a href="lesson/08_javascriptA/javascript06/test03.html" target="_blank">요일 표시</a></li>
+								<li><a href="lesson/08_javascriptA/javascript06/test04.html" target="_blank">특정 날짜 표시</a></li>
+								<li><a href="lesson/08_javascriptA/javascript06/test05.html" target="_blank">날짜 시간 변경</a></li>
+								<li><a href="lesson/08_javascriptA/javascript06/test06.html" target="_blank">D-Day 표시</a></li>
+								<li><a href="lesson/08_javascriptA/javascript06/d_day_count_test/count.html" target="_blank">D-Day 실전</a></li>
+							</ul>					
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript07</li>	
+								<li><a href="lesson/08_javascriptA/javascript07/javascript07.html" target="_blank">JavaScript Math.속성 또는 메소드</a></li>
+								<li><a href="lesson/08_javascriptA/javascript07/test01.html" target="_blank">Math.속성 또는 메소드</a></li>
+								<li><a href="lesson/08_javascriptA/javascript07/test02.html" target="_blank">반지름이 5인 원의 체적</a></li>
+								<li><a href="lesson/08_javascriptA/javascript07/test03.html" target="_blank">복잡한 계산을 풀어주는 Math 메소드</a></li>
+								<li><a href="lesson/08_javascriptA/javascript07/test04.html" target="_blank">잡한 계산을 풀어주는 Math 메소드2</a></li>
+							</ul>	
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript08</li>	
+								<li><a href="lesson/08_javascriptA/javascript08/javascript08.html" target="_blank">JavaScript Window 객체 메소드</a></li>
+								<li><a href="lesson/08_javascriptA/javascript08/test01.html" target="_blank">팝업창</a></li>
+								<li><a href="lesson/08_javascriptA/javascript08/test02.html" target="_blank">카메라 쇼핑몰</a></li>
+							</ul>				
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript09</li>	
+								<li><a href="lesson/08_javascriptA/javascript09/javascript09.html" target="_blank">JavaScript 내장 함수인 메소드들</a></li>
+								<li><a href="lesson/08_javascriptA/javascript09/test01.html" target="_blank">시계 만들기</a></li>
+								<li><a href="lesson/08_javascriptA/javascript09/test02.html" target="_blank">크기가 변하는 그림</a></li>
+								<li><a href="lesson/08_javascriptA/javascript09/비천무.htm" target="_blank">필요한 영역만 인쇄</a></li>
+								<li><a href="lesson/08_javascriptA/javascript09/test03.html" target="_blank">창크기 조절(익스만)</a></li>
+								<li><a href="lesson/08_javascriptA/javascript09/test04.html" target="_blank">창위치 조절(익스만)</a></li>
+								<li><a href="lesson/08_javascriptA/javascript09/자우림.htm" target="_blank">문서 스크롤</a></li>
+							</ul>					
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">javascript10</li>	
+								<li><a href="lesson/08_javascriptA/javascript10/javascript10.html" target="_blank">JavaScript 문서 정보를 제어하는 Document객체</a></li>
+								<li><a href="lesson/08_javascriptA/javascript10/test01.html" target="_blank">문서 정보를 표시해주는 속성</a></li>
+								<li><a href="lesson/08_javascriptA/javascript10/test02.html" target="_blank">최종 수정 날짜</a></li>
+								<li><a href="lesson/08_javascriptA/javascript10/test03.html" target="_blank">문서 색상 정보를 제어하는 속성</a></li>
+								<li><a href="lesson/08_javascriptA/javascript10/test04.html" target="_blank">창의 내용을 보여주는 메소드</a></li>
+								<li><a href="lesson/08_javascriptA/javascript10/가을동화.htm" target="_blank"> setTimeout</a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>
+						</div>
+						<div class="box1_1 fl">
+							<div class="box_tit"></div>
+						</div>
+					</div>
+				</div><!-- id="right_bot6" -->
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex04</li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test01.html" target="_blank">show/hide</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test02.html" target="_blank">width/height</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test03.html" target="_blank">fadeIn/fadeOut</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test04.html" target="_blank">slideDown/slideUp</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test05.html" target="_blank">.animate(애니메이트할 내용,옵션(시간),애니메이트가 끝나고 실행할 함수);</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test06.html" target="_blank">text/html *html 메소드는 html문법을 인식</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test07.html" target="_blank">empty</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test08.html" target="_blank">attr 속성(빨간 글씨) 해당 속성값을 가져옴</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test09.html" target="_blank">val (값)</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test10.html" target="_blank">addClass/removeClass</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test11.html" target="_blank">append ~에 ~를</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test12.html" target="_blank">appendTo ~에 ~를</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test13.html" target="_blank">prepend 선택한 요소 내 맨 앞에 요소 추가</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test14.html" target="_blank">prependTo 선택한 요소 내 맨 앞에 요소 추가</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test15.html" target="_blank">동적생성</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test16.html" target="_blank">remove</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test17.html" target="_blank">click</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test18.html" target="_blank">mouseenter/mouseleave</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test19.html" target="_blank">hover</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test20.html" target="_blank">focus/blur</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test21.html" target="_blank">this(를 안 쓰면?)</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test22.html" target="_blank">this(2)</a></li>		
+								<li><a href="lesson/09_jQuery_basic/ex04/test23.html" target="_blank">each(function); 메모리에 상주하며 이벤트 메소드 x</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/test24.html" target="_blank">each(2)</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex04/method.html" target="_blank">메소드 정리표</a></li>															
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex05_rollover</li>
+								<li><a href="lesson/09_jQuery_basic/ex05_rollover/index1.html" target="_blank">롤오버 메뉴</a></li>									
+								<li><a href="lesson/09_jQuery_basic/ex05_rollover/index2.html" target="_blank">롤오버 메뉴.bind() or on()</a></li>									
+								<li><a href="lesson/09_jQuery_basic/ex05_rollover/index3.html" target="_blank">롤오버 메뉴 플러그인</a></li>									
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex06_guidetext</li>
+								<li><a href="lesson/09_jQuery_basic/ex06_guidetext/ex09_unit05_01.html" target="_blank">placeholder대체</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex06_guidetext/index1.html" target="_blank">로그인 폼 guidetext</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex06_guidetext/index2.html" target="_blank">로그인 폼 guidetext 완성</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex07_accordion</li>
+								<li><a href="lesson/09_jQuery_basic/ex07_accordion/index1.html" target="_blank">게시판 효과</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex07_ajax</li>
+								<li><a href="lesson/09_jQuery_basic/ex07_ajax/" target="_blank"></a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex08_imgslider</li>
+								<li><a href="lesson/09_jQuery_basic/ex08_imgslider/index1.html" target="_blank">이미지 페이드인/아웃</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex08_imgslider/index2.html" target="_blank">hover할 때 멈추기</a></li>
+							</ul>				
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex09_tabcontent</li>
+								<li><a href="lesson/09_jQuery_basic/ex09_tabcontent/index1.html" target="_blank">탭메뉴</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex09_tabcontent/index2.html" target="_blank">탭메뉴 슬라이드</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex10_animate</li>
+								<li><a href="lesson/09_jQuery_basic/ex10_animate/index1.html" target="_blank">stop 리턴값 콜백함수</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex10_animate/index2.html" target="_blank">플러그인 사용법</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex10_animate/animate1.html" target="_blank">호버 애니메이션 아래>위</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex10_animate/animate2.html" target="_blank">호버 애니메이션 아래>위</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex10_animate/animate3.html" target="_blank">호버 애니메이션 왼>오</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex10_animate/animate4.html" target="_blank">호버 애니메이션 아래>위</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex10_animate/animate5.html" target="_blank">퀵메뉴</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex10_tooltip</li>
+								<li><a href="lesson/09_jQuery_basic/ex10_tooltip/index1.html" target="_blank">툴팁</a></li>
+								<li><a href="lesson/09_jQuery_basic/ex10_tooltip/index2.html" target="_blank">툴팁 애니메이션 스르륵</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex11_colorbox</li>
+								<li><a href="lesson/09_jQuery_basic/ex11_colorbox/index.html" target="_blank">colorbox() 플러그인 사용</a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex12_rollover_fn</li>
+								<li><a href="lesson/09_jQuery_basic/ex12_rollover_fn/div_grid_0/div_index.html" target="_blank">플러그인 만들고 적용</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex12_rollover_fn_완성</li>
+								<li><a href="lesson/09_jQuery_basic/ex12_rollover_fn_완성/" target="_blank"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- id="right_bot7" -->
+				<div class="right_bot">
+					<div class="box3_11 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex01</li>
+								<li><a href="lesson/10_jQuery_middle/ex01/index1.html" target="_blank">탭메뉴 1</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex01/index2.html" target="_blank">탭메뉴 2</a></li>
+							</ul>						
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex02</li>
+								<li><a href="lesson/10_jQuery_middle/ex02/index1.html" target="_blank">탭메뉴 클릭+호버</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex03</li>
+								<li><a href="lesson/10_jQuery_middle/ex03/01_1depth_menu.html" target="_blank">호버 탭메뉴 1</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex03/01_1depth_menu2.html" target="_blank">호버 탭메뉴 2</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex03/01_1depth_menu3.html" target="_blank">호버 탭메뉴 3 완성</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex03/ex_menu_width1/menu_width.html" target="_blank">호버 탭메뉴 예시2</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex03/02_slide_banner.html" target="_blank">슬라이드 배너 (상하)</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex03/02_slide_banner2.html" target="_blank">슬라이드 배너2 (좌우)</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex03/02_slide_banner3.html" target="_blank">슬라이드 배너3 (호버시 스탑)</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3_12 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex04</li>
+								<li><a href="http://private.dothome.co.kr/test/ex04/01_load.html" target="_blank">문서 불러오기</a></li>
+								<li><a href="http://private.dothome.co.kr/test/ex04/02_get_xml.html" target="_blank">xml 데이터</a></li>
+								<li><a href="http://private.dothome.co.kr/test/ex04/03_get_json.html" target="_blank">json 데이터</a></li>
+								<li><a href="http://private.dothome.co.kr/test/ex04/04_ajax_json.html" target="_blank">ajax 동기식/비동기식</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex04/index1.html" target="_blank">현재 날씨 예측</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex04/index2.html" target="_blank">최근 5일 날씨</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex05</li>
+								<li><a href="lesson/10_jQuery_middle/ex05/index1.html" target="_blank">슬라이드+인디케이터</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex05/index2.html" target="_blank">슬라이드+인디케이터 2행 3열</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex05/index3.html" target="_blank">슬라이드+인디케이터 반복실행</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex05/index4.html" target="_blank">슬라이드+인디케이터 반복실행(호버 스탑)</a></li>
+								<li><a href="lesson/10_jQuery_middle/ex05/index5.html" target="_blank">슬라이드+인디케이터+버튼 반복실행</a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex06_img_gallery</li>
+								<li><a href="lesson/10_jQuery_middle/ex06_img_gallery/gallery.html" target="_blank">갤러리 리스트</a></li>
+							</ul>				
+						</div>
+					</div>
+					<div class="box3_13 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex07_project_lg</li>
+								<li><a href="lesson/10_jQuery_middle/ex07_project_lg/index.html" target="_blank">LG 냉장고 페이지</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex08_project_barrer</li>
+								<li><a href="lesson/10_jQuery_middle/ex08_project_barrer/index.html" target="_blank">베럴 레이어 깊이</a></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">ex09_project_mask</li>
+								<li><a href="lesson/10_jQuery_middle/ex09_project_mask/index.html" target="_blank">프로그레스 진행바 애니메이션</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3_14 cf">
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit">weacher_API</li>
+								<li><a href="lesson/10_jQuery_middle/weacher_API/index.html" target="_blank"></a></li>
+							</ul>					
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit"></li>
+							</ul>
+						</div>
+						<div class="box1_1 fl">
+							<ul>
+								<li class="box_tit"></li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- id="right_bot8" -->
+				<footer class="cf">
+					<div class="footer1">
+						<p class="footer_evt fl">#4200으로 홈피 업데이트,멋진 스킨도 받으세요!</p>
+						<ul class="fl cf">
+							<li><span class="yellow">내미니홈피</span></li>
+							<li class="f_box"><img src="images/left_arrow.png" alt="left arrow"/>이소혜&rarr;김은정&rarr;오윤석&nbsp;<img src="images/right_arrow.png" alt="right arrow"/></li>
+							<li>
+								<select name="footer_option" id="footer_option">
+									<option value="일촌파도타기">&#9733;내일촌 파도타기</option>
+									<option value="일촌평쓰기">&#9733;일촌평 쓰기</option>
+								</select>							
+							</li>
+							<li>
+								<select name="footer_option2" id="footer_option2">
+									<option value="일촌파도타기">&#9733;클럽바로가기</option>
+									<option value="일촌평쓰기">&#9733;미니홈피꾸미기</option>
+								</select>							
+							</li>
+						</ul>
+						<input type="button" name="footer_btn" value="랜덤"/>
+						<input type="button" name="footer_btn" value="로그아웃"/>
+					</div>
+					<div class="footer2">
+						<div class="text">copyright&copy;<span> eunjeong</span> 2022 col_1a. All right reserved.
+							<a href="https://blog.naver.com/col_1a" target="_blank"><img src="images/bebo-logo.png" alt="블로그"/></a>
+							<a href="https://blog.naver.com/col_1a" target="_blank"><img src="images/instagram.png" alt="인스타그램"/></a>
+						</div>
+					</div>
+				</footer>
+			</article><!-- id="section_right" -->
+			<aside id="aside_right" class="fr">
+				<div class="side_menu cf">
+					<ul>
+						<li class="active"><a href="#;" title="16_Mobile_jQuery">모바일</a></li>
+						<li><a href="#;" title="01_Web_Standard">스탠다드</a></li>
+						<li><a href="#;" title="04_HTML5_CSS3">HTML5</a></li>
+						<li><a href="#;" title="BootStrap">BootStrap</a></li>
+						<li><a href="#;" title="05_Web_Design">웹디자인</a></li>
+						<li><a href="#;" title="06_project01a&b">프로젝트</a></li>
+						<li><a href="#;" title="08_javascriptA">스크립트</a></li>
+						<li><a href="#;" title="09_jQuery_basic">제이쿼리</a></li>
+						<li><a href="#;" title="10_jQuery_middle">제이쿼리2</a></li>
+					</ul>
+				</div>				
+			</aside>
+		</section><!-- id="contents_wrap" -->
+	</div><!-- id="wrapper" -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+

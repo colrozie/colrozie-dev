@@ -1,0 +1,26 @@
+﻿/* body{background: red;} */
+
+.tooltip_box{position: relative; left: 50%; top: 100px; width: 400px; margin-left: -208px; padding: 8px; font: 12px '맑은 고딕', Arial, sans-serif; text-align: justify; color: #fff; background: darkgreen;}
+
+.tooltip_box:before{content: ''; position: absolute; bottom: -10px; left: 200px; 
+	border-top: 10px solid darkgreen;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+.tooltip_box:after{content: ''; position: absolute; top: -10px; left: 200px; 
+	border-bottom: 10px solid darkgreen;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+.tooltip_box:after{content: ''; position: absolute; top: -10px; left: 200px; 
+	border-top: 10px solid transparent;
+	border-left: 10px solid red;
+	border-bottom: 10px solid transparent;
+}
+
+.tooltip_box:after{content: ''; position: absolute; top: -10px; left: 200px; 
+	border-top: 10px solid transparent;
+	border-right: 10px solid pink;
+	border-bottom: 10px solid transparent;
+}
